@@ -1,0 +1,38 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "2oSudi33qGU27SJkrVWvr"
+uri = "file://artifacts/lumen-library/src/assets/covers/meditations.png"
+type = "image"
+title = "Meditations book cover"
+
+[[generated]]
+id = "CO2_JcTj3yYBrSgd83woZ"
+uri = "file://artifacts/lumen-library/src/assets/covers/atomic-habits.png"
+type = "image"
+title = "Atomic Habits book cover"
+
+[[generated]]
+id = "XlDnGBLBoV-29TBQUW95c"
+uri = "file://artifacts/lumen-library/src/assets/covers/thinking-fast.png"
+type = "image"
+title = "Thinking Fast book cover"
+
+[[generated]]
+id = "4711mPmFxg9nofKZUqS9P"
+uri = "file://artifacts/lumen-library/src/assets/covers/zero-to-one.png"
+type = "image"
+title = "Zero to One book cover"
+
+[[generated]]
+id = "v0N_V1V8u_tJb5P7DigmT"
+uri = "file://artifacts/lumen-library/src/assets/covers/brief-history.png"
+type = "image"
+title = "Brief History book cover"
+
+[[generated]]
+id = "VqRKa7gZJcPjtXHen1Mn1"
+uri = "file://artifacts/lumen-library/src/assets/covers/power-of-now.png"
+type = "image"
+title = "Power of Now book cover"

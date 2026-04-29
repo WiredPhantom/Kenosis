@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Lumen — A Library of Big Ideas"
+version = "1.0.0"
+id = "artifacts/lumen-library"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22036
+
+[services.development]
+run = "pnpm --filter @workspace/lumen-library run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/lumen-library", "run", "build" ]
+publicDir = "artifacts/lumen-library/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22036"
+BASE_PATH = "/"
