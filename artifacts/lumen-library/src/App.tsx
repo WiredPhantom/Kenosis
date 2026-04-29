@@ -1,4 +1,5 @@
 import { Switch, Route, Router as WouterRouter } from "wouter";
+import { useHashLocation } from "wouter/use-hash-location";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -9,6 +10,7 @@ import LibraryPage from "@/pages/home";
 import BookDetailPage from "@/pages/book-detail";
 import ReadModePage from "@/pages/read-mode";
 import ListenModePage from "@/pages/listen-mode";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const queryClient = new QueryClient();
 
@@ -30,7 +32,8 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
+        <WouterRouter hook={useHashLocation}>
+          <ThemeToggle />
           <Router />
         </WouterRouter>
         <Toaster />

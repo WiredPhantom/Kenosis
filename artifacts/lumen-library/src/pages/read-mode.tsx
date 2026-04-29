@@ -2,15 +2,12 @@ import { useState, useEffect, useRef } from "react";
 import { Link, useParams } from "wouter";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { books } from "@/data/books";
-import { ArrowLeft, Moon, Sun, Type, Minus, Plus, Heart } from "lucide-react";
-
-type Theme = "light" | "sepia" | "dark";
+import { ArrowLeft, Type, Minus, Plus, Heart } from "lucide-react";
 
 export default function ReadModePage() {
   const params = useParams();
   const book = books.find(b => b.id === params.id);
 
-  const [theme, setTheme] = useState<Theme>("light");
   const [fontSize, setFontSize] = useState(18);
 
   const containerRef = useRef<HTMLDivElement>(null);
@@ -20,12 +17,6 @@ export default function ReadModePage() {
   useEffect(() => {
     if (book) document.title = `Reading ♡ ${book.title} — Lumen`;
   }, [book]);
-
-  useEffect(() => {
-    document.documentElement.classList.remove("dark", "theme-sepia");
-    if (theme === "dark") document.documentElement.classList.add("dark");
-    else if (theme === "sepia") document.documentElement.classList.add("theme-sepia");
-  }, [theme]);
 
   if (!book) return null;
 
@@ -74,29 +65,6 @@ export default function ReadModePage() {
             </button>
           </div>
 
-          <div className="kawaii-pill flex items-center px-1 py-0.5">
-            <button
-              onClick={() => setTheme("light")}
-              className={`p-1.5 rounded-full transition-colors ${theme === 'light' ? 'bg-pink-100 text-rose-500' : 'text-rose-300 hover:text-rose-500'}`}
-              title="light"
-            >
-              <Sun className="w-3.5 h-3.5" />
-            </button>
-            <button
-              onClick={() => setTheme("sepia")}
-              className={`p-1.5 rounded-full transition-colors ${theme === 'sepia' ? 'bg-amber-100 text-amber-700' : 'text-rose-300 hover:text-amber-600'}`}
-              title="sepia"
-            >
-              <div className="w-3.5 h-3.5 rounded-full bg-amber-300 border border-amber-400" />
-            </button>
-            <button
-              onClick={() => setTheme("dark")}
-              className={`p-1.5 rounded-full transition-colors ${theme === 'dark' ? 'bg-purple-100 text-purple-600' : 'text-rose-300 hover:text-purple-500'}`}
-              title="dark"
-            >
-              <Moon className="w-3.5 h-3.5" />
-            </button>
-          </div>
         </div>
       </header>
 

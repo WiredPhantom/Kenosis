@@ -1,5 +1,4 @@
 uploads = []
-outputs = []
 
 [[generated]]
 id = "2oSudi33qGU27SJkrVWvr"
@@ -42,3 +41,9 @@ id = "YV5CDJA2C0AKWr5oLcN6E"
 uri = "file://artifacts/lumen-library/src/assets/covers/principles-of-human-knowledge.png"
 type = "image"
 title = "berkeley kawaii cover"
+
+[[outputs]]
+id = "mda2YjDF63hrzLNtUKxKm"
+uri = "file://artifacts/lumen-library/dist/lumen-neocities.tar.gz"
+type = "unspecified"
+title = "Lumen — static build for Neocities (extract & upload)"

@@ -2,11 +2,9 @@ import { useState, useEffect, useMemo } from "react";
 import { Link, useParams } from "wouter";
 import { motion, AnimatePresence } from "framer-motion";
 import { books } from "@/data/books";
-import { ArrowLeft, Play, Pause, RotateCcw, Volume2, Sparkles, Pencil, BookOpen } from "lucide-react";
+import { ArrowLeft, Play, Pause, RotateCcw, Volume2, Sparkles } from "lucide-react";
 import { useSpeech, type EmotionTag } from "@/hooks/use-speech";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
 import NarratorStage from "@/components/NarratorStage";
 
 const EMOTION_LABEL: Record<EmotionTag, string> = {
@@ -52,19 +50,8 @@ export default function ListenModePage() {
   const book = books.find((b) => b.id === params.id);
 
   const [speed, setSpeed] = useState(0.9);
-  const [showEditor, setShowEditor] = useState(false);
-  const [customText, setCustomText] = useState("");
-  const [activeText, setActiveText] = useState("");
 
-  const defaultScript = useMemo(() => (book ? buildScriptFromBook(book) : ""), [book]);
-
-  // Initialize active text once the book loads
-  useEffect(() => {
-    if (book && !activeText) {
-      setActiveText(defaultScript);
-      setCustomText(defaultScript);
-    }
-  }, [book, defaultScript, activeText]);
+  const script = useMemo(() => (book ? buildScriptFromBook(book) : ""), [book]);
 
   const {
     voices,
@@ -82,7 +69,7 @@ export default function ListenModePage() {
     pause,
     stop,
     supportsSpeech,
-  } = useSpeech(activeText, speed);
+  } = useSpeech(script, speed);
 
   useEffect(() => {
     if (book) document.title = `Listening: ${book.title} — Lumen`;
@@ -98,18 +85,6 @@ export default function ListenModePage() {
     }
     return currentWord ? `… ${currentWord} …` : "Loading voices…";
   }, [supportsSpeech, isPlaying, isPaused, progress, currentSegmentIndex, segments, currentWord]);
-
-  const applyCustomText = () => {
-    stop();
-    setActiveText(customText.trim() || defaultScript);
-    setShowEditor(false);
-  };
-
-  const resetToBook = () => {
-    stop();
-    setCustomText(defaultScript);
-    setActiveText(defaultScript);
-  };
 
   if (!book) return null;
 
@@ -148,9 +123,9 @@ export default function ListenModePage() {
           back
         </Link>
 
-        <div className="text-center kawaii-frame-solid bg-card/90 backdrop-blur-sm px-5 py-1.5">
-          <h2 className="font-cute text-lg text-rose-500 leading-tight">{book.title}</h2>
-          <p className="text-[10px] font-pixel text-foreground/55 leading-tight">by {book.author}</p>
+        <div className="text-center kawaii-frame-solid bg-card/90 backdrop-blur-sm px-5 py-1.5 max-w-[60%]">
+          <h2 className="font-cute text-lg text-rose-500 leading-tight truncate">{book.title}</h2>
+          <p className="text-[10px] font-pixel text-foreground/55 leading-tight truncate">by {book.author}</p>
         </div>
 
         <div className="flex items-center gap-2">
@@ -158,13 +133,6 @@ export default function ListenModePage() {
             <Sparkles className="w-3 h-3 text-amber-400" />
             {EMOTION_LABEL[currentEmotion]}
           </span>
-          <button
-            className="kawaii-pill inline-flex items-center gap-1.5 px-3 py-1.5 text-[11px] font-pixel text-rose-500 bg-card/90 backdrop-blur-sm hover:bg-pink-50"
-            onClick={() => setShowEditor((s) => !s)}
-          >
-            <Pencil className="w-3 h-3" />
-            script
-          </button>
         </div>
       </header>
 
@@ -195,57 +163,6 @@ export default function ListenModePage() {
           </AnimatePresence>
         </div>
       </main>
-
-      {/* Editor drawer */}
-      <AnimatePresence>
-        {showEditor && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="absolute inset-0 z-30 bg-background/85 backdrop-blur-md flex items-center justify-center p-6"
-          >
-            <motion.div
-              initial={{ y: 30, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              exit={{ y: 30, opacity: 0 }}
-              className="w-full max-w-2xl bg-card border border-border rounded-2xl p-6 shadow-2xl"
-            >
-              <div className="flex items-start justify-between mb-4">
-                <div>
-                  <h3 className="text-xl font-serif font-medium">Custom narration script</h3>
-                  <p className="text-xs text-muted-foreground mt-1">
-                    Drop in any text. Add tags like <code className="bg-muted px-1 rounded">[soft]</code>{" "}
-                    <code className="bg-muted px-1 rounded">[happy]</code>{" "}
-                    <code className="bg-muted px-1 rounded">[sad]</code>{" "}
-                    <code className="bg-muted px-1 rounded">[serious]</code>{" "}
-                    <code className="bg-muted px-1 rounded">[neutral]</code> to shift the narrator's mood.
-                  </p>
-                </div>
-                <Button variant="ghost" size="sm" onClick={() => setShowEditor(false)}>Close</Button>
-              </div>
-
-              <Textarea
-                value={customText}
-                onChange={(e) => setCustomText(e.target.value)}
-                placeholder="[soft] Begin with a quiet thought… [serious] Then make your point. [happy] End on a bright note."
-                className="min-h-[260px] font-serif text-base leading-relaxed"
-              />
-
-              <div className="flex flex-wrap items-center justify-between gap-3 mt-4">
-                <Button variant="ghost" size="sm" onClick={resetToBook}>
-                  <BookOpen className="w-4 h-4 mr-1.5" />
-                  Reset to book summary
-                </Button>
-                <div className="flex gap-2">
-                  <Button variant="outline" onClick={() => setShowEditor(false)}>Cancel</Button>
-                  <Button onClick={applyCustomText}>Use this script</Button>
-                </div>
-              </div>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
 
       {/* Player */}
       <footer className="absolute bottom-0 left-0 right-0 bg-background/85 backdrop-blur-md border-t border-border/50 p-5 z-20">
@@ -322,14 +239,10 @@ export default function ListenModePage() {
                 {isPlaying ? <Pause className="w-7 h-7 fill-current" /> : <Play className="w-7 h-7 fill-current ml-0.5" />}
               </button>
 
-              <button
-                onClick={() => setShowEditor(true)}
-                className="p-2 text-muted-foreground hover:text-foreground transition-colors md:hidden"
-                title="Edit script"
-                aria-label="Edit script"
-              >
-                <Pencil className="w-5 h-5" />
-              </button>
+              <span className="md:hidden inline-flex items-center gap-1 font-pixel text-[10px] text-rose-500 bg-pink-50 border border-rose-200 px-2 py-1 rounded-full">
+                <Sparkles className="w-3 h-3 text-amber-400" />
+                {EMOTION_LABEL[currentEmotion]}
+              </span>
             </div>
 
             <div className="w-1/3 flex items-center justify-end gap-3">

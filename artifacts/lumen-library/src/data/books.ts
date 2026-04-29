@@ -43,49 +43,49 @@ export const books: Book[] = [
         ]
       },
       {
-        heading: "Blink 1 — Knowledge is built from ideas, not hidden things",
+        heading: "Knowledge is built from ideas, not hidden things",
         paragraphs: [
           "Berkeley begins with what is undeniable: the objects of human knowledge are ideas. Some are sensations (colors, sounds, tastes), some are remembered or imagined, some are emotions and operations of the mind itself.",
           "Behind every claim about the world is, in fact, an experience in some mind. Philosophy goes wrong, he says, the moment it slips from talking about ideas we actually have to talking about a hidden world we can never reach."
         ]
       },
       {
-        heading: "Blink 2 — \"To be is to be perceived\"",
+        heading: "\"To be is to be perceived\"",
         paragraphs: [
           "Berkeley's most famous line is esse est percipi: to be is to be perceived. A table, a tree, a melody — none of them have any existence independent of being experienced by some mind.",
           "This is not a denial that the table is real. It's a denial that \"real\" means \"existing outside any mind at all.\" The tree in the quad is fully real; it just is its appearances to perceivers, including God."
         ]
       },
       {
-        heading: "Blink 3 — There is no such thing as \"matter\"",
+        heading: "There is no such thing as \"matter\"",
         paragraphs: [
           "Philosophers had assumed an invisible substance called matter that supposedly carries the qualities we perceive. Berkeley asks: what would matter be, stripped of every quality you could possibly experience? The answer is nothing — a word with no idea behind it.",
           "Worse, the idea of matter is the breeding ground of skepticism. If reality lies behind a veil of mere appearance, we can never check whether our ideas match it. Drop matter, and the veil disappears with it."
         ]
       },
       {
-        heading: "Blink 4 — Primary and secondary qualities collapse together",
+        heading: "Primary and secondary qualities collapse together",
         paragraphs: [
           "Locke and others split qualities in two: \"primary\" ones like shape, motion, and extension supposedly belong to objects themselves, while \"secondary\" ones like color, sound, and taste exist only in the mind.",
           "Berkeley shows the line cannot hold. Try to imagine a shape with no color, or motion with no perceived speed — you can't. Every \"primary\" quality is just as mind-dependent as the \"secondary\" ones. All qualities live in perception."
         ]
       },
       {
-        heading: "Blink 5 — Abstract general ideas are a linguistic illusion",
+        heading: "Abstract general ideas are a linguistic illusion",
         paragraphs: [
           "We talk easily about \"triangle in general\" or \"man in general,\" and assume the mind forms a matching abstract picture. Berkeley denies this. Every actual idea you can summon is particular: this triangle, this person.",
           "What we really do is use a particular idea as a stand-in for many similar ones, helped along by a general word. Many philosophical puzzles, he thinks, come from mistaking a useful linguistic shortcut for a mysterious mental object."
         ]
       },
       {
-        heading: "Blink 6 — The orderly world is sustained by an infinite Mind",
+        heading: "The orderly world is sustained by an infinite Mind",
         paragraphs: [
           "If things exist only when perceived, why doesn't your room blink out the moment you close your eyes? Berkeley's answer: because it is continuously perceived by God, the infinite Spirit in whom \"we live, and move, and have our being.\"",
           "The regular laws of nature are, on this view, the steady habits of God's perception — a kind of language by which the divine mind speaks to ours. Science is the study of this language, not of dead matter pushing dead matter around."
         ]
       },
       {
-        heading: "Blink 7 — Why immaterialism rescues common sense",
+        heading: "Why immaterialism rescues common sense",
         paragraphs: [
           "Critics accuse Berkeley of denying the world, but he insists he's the true defender of common sense. Ordinary people never talk about \"matter in itself\"; they talk about apples they can taste and friends they can hug. Immaterialism keeps all of that intact.",
           "What it removes is only a philosopher's invention — an unobservable substratum — that generates skepticism, atheism, and endless metaphysical puzzles. Strip it away, and the world we actually experience is left standing, vivid and meaningful."
