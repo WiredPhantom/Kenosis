@@ -36,3 +36,9 @@ id = "VqRKa7gZJcPjtXHen1Mn1"
 uri = "file://artifacts/lumen-library/src/assets/covers/power-of-now.png"
 type = "image"
 title = "Power of Now book cover"
+
+[[generated]]
+id = "YV5CDJA2C0AKWr5oLcN6E"
+uri = "file://artifacts/lumen-library/src/assets/covers/principles-of-human-knowledge.png"
+type = "image"
+title = "berkeley kawaii cover"

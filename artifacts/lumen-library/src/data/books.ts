@@ -1,11 +1,4 @@
-import type { Book } from "./types";
-
-import meditationsCover from "../assets/covers/meditations.png";
-import atomicHabitsCover from "../assets/covers/atomic-habits.png";
-import thinkingFastCover from "../assets/covers/thinking-fast.png";
-import zeroToOneCover from "../assets/covers/zero-to-one.png";
-import briefHistoryCover from "../assets/covers/brief-history.png";
-import powerOfNowCover from "../assets/covers/power-of-now.png";
+import berkeleyCover from "../assets/covers/principles-of-human-knowledge.png";
 
 export type BookCategory = "Philosophy" | "Self-Help" | "Psychology" | "Business" | "Science" | "Spirituality";
 
@@ -27,146 +20,82 @@ export interface Book {
 
 export const books: Book[] = [
   {
-    id: "meditations",
-    title: "Meditations",
-    author: "Marcus Aurelius",
+    id: "principles-of-human-knowledge",
+    title: "A Treatise Concerning the Principles of Human Knowledge",
+    author: "George Berkeley",
     category: "Philosophy",
-    coverImageUrl: meditationsCover,
-    shortDescription: "A series of personal writings by Roman Emperor Marcus Aurelius, recording his notes to himself and ideas on Stoic philosophy. It offers practical wisdom on navigating life's challenges, managing emotions, and finding peace amidst chaos.",
+    coverImageUrl: berkeleyCover,
+    shortDescription:
+      "Berkeley's bold 1710 argument that the physical world has no existence outside of being perceived. A foundational text of immaterialism (\"to be is to be perceived\") that quietly reshaped philosophy of mind, science, and theology.",
     keyTakeaways: [
-      "Focus on what you can control, let go of what you cannot.",
-      "Your mind's tranquility depends on the quality of your thoughts.",
-      "Embrace impermanence; everything is temporary.",
-      "Live virtuously, guided by reason and duty."
+      "Esse est percipi — to be is to be perceived. Things only exist as ideas in some mind.",
+      "There is no \"matter\" behind our experiences. The physical world just is the orderly stream of sensations we receive.",
+      "Abstract general ideas (like \"triangle in general\") are a confusion of language, not a real mental power.",
+      "The reliability and order of nature is explained by God, the infinite mind in which all things are continually perceived.",
+      "Skepticism, atheism, and many scientific puzzles dissolve once we drop the assumption of mind-independent matter."
     ],
     summarySections: [
       {
-        heading: "Introduction to Stoicism",
+        heading: "What's in it for you?",
         paragraphs: [
-          "In Meditations, Marcus Aurelius doesn't present a systematic philosophical treatise. Instead, he offers a raw, unfiltered look into the mind of an emperor grappling with the heavy burdens of leadership and the eternal human quest for meaning.",
-          "Stoicism, as practiced by Aurelius, is not about suppressing emotion, but rather about cultivating a mind so clear and a spirit so strong that external circumstances cannot disturb your inner peace."
+          "Most of us live as if there is a solid, mind-independent world out there made of \"matter,\" and our minds simply look in on it. George Berkeley argues — calmly, almost cheerfully — that this picture is incoherent.",
+          "In these blinks you'll meet immaterialism: the view that reality is made entirely of minds and their ideas. You'll see how Berkeley uses this single move to defend common sense, dissolve skepticism, and leave room for both natural science and God."
         ]
       },
       {
-        heading: "The Dichotomy of Control",
+        heading: "Blink 1 — Knowledge is built from ideas, not hidden things",
         paragraphs: [
-          "At the heart of Stoic practice is the clear division between things that are up to us and things that are not. Aurelius repeatedly reminds himself that external events—the actions of others, the weather, disease, or disaster—are beyond his control.",
-          "What is within his control is his judgment of these events. By detaching his inner state from external outcomes, he creates a fortress of tranquility that no external force can breach."
+          "Berkeley begins with what is undeniable: the objects of human knowledge are ideas. Some are sensations (colors, sounds, tastes), some are remembered or imagined, some are emotions and operations of the mind itself.",
+          "Behind every claim about the world is, in fact, an experience in some mind. Philosophy goes wrong, he says, the moment it slips from talking about ideas we actually have to talking about a hidden world we can never reach."
         ]
-      }
-    ]
-  },
-  {
-    id: "atomic-habits",
-    title: "Atomic Habits",
-    author: "James Clear",
-    category: "Self-Help",
-    coverImageUrl: atomicHabitsCover,
-    shortDescription: "A comprehensive guide on how to build good habits and break bad ones. The book reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.",
-    keyTakeaways: [
-      "Habits are the compound interest of self-improvement.",
-      "Focus on systems rather than goals.",
-      "Make good habits obvious, attractive, easy, and satisfying.",
-      "Make bad habits invisible, unattractive, difficult, and unsatisfying."
-    ],
-    summarySections: [
+      },
       {
-        heading: "The Power of Tiny Changes",
+        heading: "Blink 2 — \"To be is to be perceived\"",
         paragraphs: [
-          "We often convince ourselves that massive success requires massive action. Whether it is losing weight, building a business, or writing a book, we put pressure on ourselves to make some earth-shattering improvement that everyone will talk about.",
-          "Meanwhile, improving by 1 percent isn't particularly notable—sometimes it isn't even noticeable—but it can be far more meaningful, especially in the long run. The difference a tiny improvement can make over time is astounding."
+          "Berkeley's most famous line is esse est percipi: to be is to be perceived. A table, a tree, a melody — none of them have any existence independent of being experienced by some mind.",
+          "This is not a denial that the table is real. It's a denial that \"real\" means \"existing outside any mind at all.\" The tree in the quad is fully real; it just is its appearances to perceivers, including God."
         ]
-      }
-    ]
-  },
-  {
-    id: "thinking-fast",
-    title: "Thinking, Fast and Slow",
-    author: "Daniel Kahneman",
-    category: "Psychology",
-    coverImageUrl: thinkingFastCover,
-    shortDescription: "A groundbreaking tour of the mind that explains the two systems that drive the way we think. System 1 is fast, intuitive, and emotional; System 2 is slower, more deliberative, and more logical.",
-    keyTakeaways: [
-      "Our brain uses two systems: System 1 (fast/intuitive) and System 2 (slow/analytical).",
-      "We are highly susceptible to cognitive biases and heuristics.",
-      "Loss aversion makes us fear losing more than we value gaining.",
-      "Our memory of an event is often different from our experience of it."
-    ],
-    summarySections: [
+      },
       {
-        heading: "Two Systems of Thought",
+        heading: "Blink 3 — There is no such thing as \"matter\"",
         paragraphs: [
-          "Kahneman introduces a framework for understanding the human mind by dividing it into two distinct systems. System 1 operates automatically and quickly, with little or no effort and no sense of voluntary control.",
-          "System 2 allocates attention to the effortful mental activities that demand it, including complex computations. The operations of System 2 are often associated with the subjective experience of agency, choice, and concentration."
+          "Philosophers had assumed an invisible substance called matter that supposedly carries the qualities we perceive. Berkeley asks: what would matter be, stripped of every quality you could possibly experience? The answer is nothing — a word with no idea behind it.",
+          "Worse, the idea of matter is the breeding ground of skepticism. If reality lies behind a veil of mere appearance, we can never check whether our ideas match it. Drop matter, and the veil disappears with it."
         ]
-      }
-    ]
-  },
-  {
-    id: "zero-to-one",
-    title: "Zero to One",
-    author: "Peter Thiel",
-    category: "Business",
-    coverImageUrl: zeroToOneCover,
-    shortDescription: "Notes on startups, or how to build the future. Thiel presents a contrarian view on innovation, arguing that the next Bill Gates will not build an operating system, and the next Larry Page won't make a search engine.",
-    keyTakeaways: [
-      "True innovation means going from 0 to 1 (creating something new), not 1 to n (copying).",
-      "Monopolies drive innovation; perfect competition kills profits.",
-      "Start with a small, niche market and dominate it.",
-      "A great team and a strong foundational culture are essential."
-    ],
-    summarySections: [
+      },
       {
-        heading: "The Challenge of the Future",
+        heading: "Blink 4 — Primary and secondary qualities collapse together",
         paragraphs: [
-          "Every moment in business happens only once. The next Mark Zuckerberg won't build a social network. The next Larry Page won't build a search engine. If you are copying these guys, you aren't learning from them.",
-          "Doing what we already know how to do takes the world from 1 to n, adding more of something familiar. But every time we create something new, we go from 0 to 1. The act of creation is singular, as is the moment of creation."
+          "Locke and others split qualities in two: \"primary\" ones like shape, motion, and extension supposedly belong to objects themselves, while \"secondary\" ones like color, sound, and taste exist only in the mind.",
+          "Berkeley shows the line cannot hold. Try to imagine a shape with no color, or motion with no perceived speed — you can't. Every \"primary\" quality is just as mind-dependent as the \"secondary\" ones. All qualities live in perception."
         ]
-      }
-    ]
-  },
-  {
-    id: "brief-history",
-    title: "A Brief History of Time",
-    author: "Stephen Hawking",
-    category: "Science",
-    coverImageUrl: briefHistoryCover,
-    shortDescription: "A landmark volume in science writing by one of the great minds of our time. Hawking explores profound questions about the universe, its origins, and its ultimate fate in accessible language.",
-    keyTakeaways: [
-      "The universe is expanding and has a finite history, beginning with the Big Bang.",
-      "Time is not absolute; it is relative to the observer.",
-      "Black holes emit radiation and will eventually evaporate.",
-      "The quest for a unified theory of physics continues."
-    ],
-    summarySections: [
+      },
       {
-        heading: "Our Picture of the Universe",
+        heading: "Blink 5 — Abstract general ideas are a linguistic illusion",
         paragraphs: [
-          "For centuries, humanity viewed the universe as static and unchanging. Stars were fixed in their spheres, and time ticked away uniformly for everyone everywhere.",
-          "The twentieth century shattered this illusion. We now know that our universe is dynamic, expanding, and governed by laws that defy simple intuition. From the microscopic weirdness of quantum mechanics to the grand scale of general relativity, the universe is far stranger than we could have ever imagined."
+          "We talk easily about \"triangle in general\" or \"man in general,\" and assume the mind forms a matching abstract picture. Berkeley denies this. Every actual idea you can summon is particular: this triangle, this person.",
+          "What we really do is use a particular idea as a stand-in for many similar ones, helped along by a general word. Many philosophical puzzles, he thinks, come from mistaking a useful linguistic shortcut for a mysterious mental object."
         ]
-      }
-    ]
-  },
-  {
-    id: "power-of-now",
-    title: "The Power of Now",
-    author: "Eckhart Tolle",
-    category: "Spirituality",
-    coverImageUrl: powerOfNowCover,
-    shortDescription: "A guide to spiritual enlightenment. Tolle argues that the present moment is all we ever have, and that focusing on the past or the future is the root cause of human suffering.",
-    keyTakeaways: [
-      "The present moment is the only reality; the past and future are illusions.",
-      "Identify your mind's constant chatter and step back from it as an observer.",
-      "Accept what is, rather than resisting it.",
-      "True peace comes from a state of intense conscious presence."
-    ],
-    summarySections: [
+      },
       {
-        heading: "You Are Not Your Mind",
+        heading: "Blink 6 — The orderly world is sustained by an infinite Mind",
         paragraphs: [
-          "The greatest obstacle to experiencing the reality of your connectedness is identification with your mind, which causes thought to become compulsive. Not to be able to stop thinking is a dreadful affliction, but we don't realize this because almost everyone is suffering from it.",
-          "The mind is a superb instrument if used rightly. Used wrongly, however, it becomes very destructive. To put it more accurately, it is not so much that you use your mind wrongly—you usually don't use it at all. It uses you. This is the disease."
+          "If things exist only when perceived, why doesn't your room blink out the moment you close your eyes? Berkeley's answer: because it is continuously perceived by God, the infinite Spirit in whom \"we live, and move, and have our being.\"",
+          "The regular laws of nature are, on this view, the steady habits of God's perception — a kind of language by which the divine mind speaks to ours. Science is the study of this language, not of dead matter pushing dead matter around."
+        ]
+      },
+      {
+        heading: "Blink 7 — Why immaterialism rescues common sense",
+        paragraphs: [
+          "Critics accuse Berkeley of denying the world, but he insists he's the true defender of common sense. Ordinary people never talk about \"matter in itself\"; they talk about apples they can taste and friends they can hug. Immaterialism keeps all of that intact.",
+          "What it removes is only a philosopher's invention — an unobservable substratum — that generates skepticism, atheism, and endless metaphysical puzzles. Strip it away, and the world we actually experience is left standing, vivid and meaningful."
+        ]
+      },
+      {
+        heading: "Final summary",
+        paragraphs: [
+          "The Principles of Human Knowledge is a short, daring book with a single big idea: nothing exists except minds and the ideas within them. Reality is perception, held together and made lawful by the perception of God.",
+          "Whether or not you accept Berkeley's conclusion, the questions he forces are unforgettable: What do you really mean when you call something \"real\"? What lies beyond your experience, and how could you ever know? Three centuries later, philosophy of mind, physics, and even debates about virtual reality keep circling back to his quiet, mischievous answer."
         ]
       }
     ]
