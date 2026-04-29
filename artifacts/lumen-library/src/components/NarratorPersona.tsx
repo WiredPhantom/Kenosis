@@ -8,15 +8,8 @@ interface NarratorPersonaProps {
 
 type Viseme = "rest" | "aa" | "ih" | "ou" | "ee" | "oh";
 
-const MOUTH_PATHS: Record<Viseme, { d: string; fill: string; stroke?: string; strokeWidth?: number }> = {
-  rest: { d: "M 92 122 Q 100 125 108 122", fill: "none", stroke: "#9a4a66", strokeWidth: 2.2 },
-  aa:   { d: "M 92 120 Q 100 134 108 120 Q 104 128 96 128 Z", fill: "#a04a66" },          // open wide
-  ih:   { d: "M 90 122 Q 100 127 110 122 Q 105 124 95 124 Z", fill: "#a04a66" },          // wide thin
-  ou:   { d: "M 96 120 Q 100 130 104 120 Q 102 126 98 126 Z", fill: "#a04a66" },          // pursed o
-  ee:   { d: "M 90 121 Q 100 124 110 121 Q 105 123 95 123 Z", fill: "#a04a66" },          // small smile
-  oh:   { d: "M 95 119 Q 100 132 105 119 Q 102 128 98 128 Z", fill: "#a04a66" },          // tall o
-};
-
+// Mouth shapes positioned around y=144 (well below nose at y=132).
+// Each viseme returns an SVG element drawn relative to the face.
 const VISEMES: Viseme[] = ["aa", "ih", "ou", "ee", "oh"];
 
 export default function NarratorPersona({ isPlaying, isSpeakingWord }: NarratorPersonaProps) {
@@ -78,8 +71,6 @@ export default function NarratorPersona({ isPlaying, isSpeakingWord }: NarratorP
       lastWaveAt.current = now;
     }
   });
-
-  const mouth = MOUTH_PATHS[viseme];
 
   return (
     <div className="relative w-72 h-72 md:w-80 md:h-80 flex items-end justify-center">
@@ -306,27 +297,63 @@ export default function NarratorPersona({ isPlaying, isSpeakingWord }: NarratorP
           </g>
 
           {/* tiny nose */}
-          <path d="M 98 130 Q 100 132 102 130" fill="none" stroke="#d99cb3" strokeWidth="1.4" strokeLinecap="round" />
+          <path
+            d="M 97 132 Q 100 135 103 132"
+            fill="none"
+            stroke="#d99cb3"
+            strokeWidth="1.4"
+            strokeLinecap="round"
+          />
 
           {/* ─── Mouth (viseme-driven) ─── */}
           <motion.g
-            transition={{ type: "spring", stiffness: 600, damping: 30 }}
-            style={{ transformOrigin: "100px 124px" }}
+            key={viseme}
+            initial={{ scale: 0.85, opacity: 0.7 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 0.1, ease: "easeOut" }}
+            style={{ transformOrigin: "100px 144px" }}
           >
-            <motion.path
-              key={viseme}
-              initial={{ scale: 0.8, opacity: 0.6 }}
-              animate={{ scale: 1, opacity: 1 }}
-              transition={{ duration: 0.08 }}
-              d={mouth.d}
-              fill={mouth.fill}
-              stroke={mouth.stroke}
-              strokeWidth={mouth.strokeWidth}
-              strokeLinecap="round"
-            />
-            {/* tiny tongue when wide open */}
-            {(viseme === "aa" || viseme === "oh") && (
-              <ellipse cx="100" cy="127" rx="3.5" ry="1.6" fill="#e07a90" />
+            {viseme === "rest" && (
+              // Soft little ω smile when not speaking
+              <path
+                d="M 94 144 Q 97 147 100 144 Q 103 147 106 144"
+                fill="none"
+                stroke="#9a4a66"
+                strokeWidth="1.8"
+                strokeLinecap="round"
+              />
+            )}
+            {viseme === "aa" && (
+              // Wide-open oval — biggest opening
+              <g>
+                <ellipse cx="100" cy="146" rx="4.5" ry="5.5" fill="#a04a66" />
+                <ellipse cx="100" cy="148.5" rx="3" ry="1.8" fill="#e07a90" />
+              </g>
+            )}
+            {viseme === "oh" && (
+              // Tall oval — like saying "oh"
+              <g>
+                <ellipse cx="100" cy="146" rx="3" ry="5" fill="#a04a66" />
+                <ellipse cx="100" cy="148.5" rx="2" ry="1.4" fill="#e07a90" />
+              </g>
+            )}
+            {viseme === "ou" && (
+              // Pursed small round — like saying "oo"
+              <ellipse cx="100" cy="145" rx="2.6" ry="3" fill="#a04a66" />
+            )}
+            {viseme === "ee" && (
+              // Wide thin smile with a hint of teeth
+              <g>
+                <path
+                  d="M 93 144 Q 100 146.5 107 144 Q 100 148 93 144 Z"
+                  fill="#a04a66"
+                />
+                <rect x="96" y="144.4" width="8" height="1.2" fill="#fff" opacity="0.85" />
+              </g>
+            )}
+            {viseme === "ih" && (
+              // Slightly open wide oval
+              <ellipse cx="100" cy="145" rx="5" ry="2.2" fill="#a04a66" />
             )}
           </motion.g>
         </motion.g>
