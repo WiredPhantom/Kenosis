@@ -3,10 +3,10 @@
    Static site with hash routing.
 
    Routes:
-     #/                      → home (library)
-     #/book/:id              → book detail (info + Read/Listen buttons)
-     #/book/:id/read         → read mode (full summary)
-     #/book/:id/listen       → listen mode (browser speech synthesis)
+     #/                      → home (library with side widgets)
+     #/book/:id              → book detail
+     #/book/:id/read         → read mode
+     #/book/:id/listen       → listen mode (browser SpeechSynthesis)
    ============================================================ */
 
 const CATEGORIES = ["All", "Philosophy", "Self-Help", "Psychology", "Business", "Science", "Spirituality"];
@@ -16,13 +16,51 @@ const state = {
   loaded: false,
   search: "",
   category: "All",
-  // Listen-mode state (per-page, reset on navigation)
   listen: null,
 };
 
 const app = document.getElementById("app");
 
-/* ---------- Avatar (reusable) ---------- */
+/* ---------- Static page chrome (always present) ---------- */
+function ensureChrome() {
+  if (document.getElementById("page-chrome")) return;
+  // Background floating stickers + cursor sparkle + lace strips wrap the app shell.
+  const chrome = document.createElement("div");
+  chrome.id = "page-chrome";
+  chrome.innerHTML = `
+    <div class="bg-stickers" aria-hidden="true">
+      <span class="stk">♡</span>
+      <span class="stk">✿</span>
+      <span class="stk">★</span>
+      <span class="stk">♡</span>
+      <span class="stk">✦</span>
+      <span class="stk">❀</span>
+    </div>
+  `;
+  document.body.prepend(chrome);
+  initCursorSparkle();
+}
+
+/* ---------- Cursor sparkle trail ---------- */
+function initCursorSparkle() {
+  const glyphs = ["✦", "✿", "♡", "★"];
+  let last = 0;
+  document.addEventListener("mousemove", (e) => {
+    const now = performance.now();
+    if (now - last < 70) return;
+    last = now;
+    const span = document.createElement("span");
+    span.className = "cursor-spark";
+    span.textContent = glyphs[Math.floor(Math.random() * glyphs.length)];
+    span.style.left = e.clientX + "px";
+    span.style.top  = e.clientY + "px";
+    span.style.color = ["#e8729a", "#b08bd6", "#d99a3a", "#88b9e0"][Math.floor(Math.random() * 4)];
+    document.body.appendChild(span);
+    setTimeout(() => span.remove(), 700);
+  }, { passive: true });
+}
+
+/* ---------- Avatar ---------- */
 function avatarHTML(size = 96) {
   return `
     <div class="avatar" style="width:${size}px;height:${size}px;">
@@ -45,6 +83,21 @@ function escapeHtml(str) {
     .replace(/'/g, "&#39;");
 }
 
+/* ---------- Visitor counter (cute, persisted in localStorage) ---------- */
+function visitorCount() {
+  const KEY = "lumen.visitors";
+  let n = parseInt(localStorage.getItem(KEY) || "0", 10);
+  if (Number.isNaN(n)) n = 0;
+  // Increment once per session
+  if (!sessionStorage.getItem("lumen.counted")) {
+    n += 1;
+    sessionStorage.setItem("lumen.counted", "1");
+    localStorage.setItem(KEY, String(n));
+  }
+  // Pad with leading offset so it feels like a "real" counter
+  return String(1247 + n).padStart(6, "0");
+}
+
 /* ---------- Routing ---------- */
 function getRoute() {
   const hash = window.location.hash.replace(/^#\/?/, "");
@@ -61,8 +114,8 @@ function getRoute() {
 window.addEventListener("hashchange", render);
 window.addEventListener("DOMContentLoaded", init);
 
-/* ---------- Init ---------- */
 async function init() {
+  ensureChrome();
   app.innerHTML = `<div class="loading">loading the cozy library… ✿</div>`;
   try {
     const res = await fetch("data/books.json", { cache: "no-cache" });
@@ -82,19 +135,120 @@ async function init() {
   }
 }
 
-/* ---------- Render dispatcher ---------- */
 function render() {
   if (!state.loaded) return;
-
-  // Stop any speech if leaving listen mode
   stopListenIfActive();
-
   const route = getRoute();
   if (route.name === "detail") return renderDetail(route.id);
   if (route.name === "read")   return renderRead(route.id);
   if (route.name === "listen") return renderListen(route.id);
   renderHome();
   window.scrollTo({ top: 0, behavior: "instant" in window ? "instant" : "auto" });
+}
+
+/* ============================================================
+   MARQUEE (top-of-page scrolling text)
+   ============================================================ */
+function marqueeHTML() {
+  const items = [
+    "♡ welcome to lumen — a cozy library of big ideas",
+    "✿ now stocking " + state.books.length + " little books",
+    "★ press play in listen mode and lumi reads to you",
+    "♡ updated " + new Date().toLocaleDateString(),
+    "✦ a hand-stitched site, made with tea and love",
+    "✿ pick a book — settle in — stay as long as you like",
+  ];
+  // Duplicate for seamless loop
+  const line = items.map(t => `<span>${escapeHtml(t)}</span>`).join("");
+  return `
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">${line}${line}</div>
+    </div>
+  `;
+}
+
+/* ============================================================
+   SIDE WIDGETS
+   ============================================================ */
+function leftWidgetsHTML() {
+  const today = new Date();
+  const dateStr = `${today.getMonth() + 1}/${today.getDate()}/${today.getFullYear()}`;
+  return `
+    <div class="widget">
+      <span class="widget-title">♡ visitors ♡</span>
+      <div class="visitor-counter">${visitorCount()}</div>
+      <ul style="margin-top:10px">
+        <li><span>updated</span><span class="v">${dateStr}</span></li>
+        <li><span>books</span><span class="v">${state.books.length}</span></li>
+        <li><span>since</span><span class="v">2026</span></li>
+      </ul>
+    </div>
+
+    <div class="widget">
+      <span class="widget-title">✿ shelves ✿</span>
+      <ul>
+        ${CATEGORIES.slice(1).map(cat => {
+          const count = state.books.filter(b => b.category === cat).length;
+          return `<li><a href="#/" data-shelf="${escapeHtml(cat)}" style="color:inherit;text-decoration:none;flex:1">${escapeHtml(cat.toLowerCase())}</a><span class="v">${count}</span></li>`;
+        }).join("")}
+      </ul>
+    </div>
+
+    <div class="widget">
+      <span class="widget-title">★ now reading ★</span>
+      ${(() => {
+        const featured = state.books[0];
+        if (!featured) return `<p style="font-family:var(--font-pixel);font-size:11px;color:var(--ink-mute)">no books yet…</p>`;
+        return `
+          <a href="#/book/${encodeURIComponent(featured.id)}" style="color:inherit;text-decoration:none">
+            <div class="mini-cover"><img src="${escapeHtml(featured.coverImageUrl)}" alt=""/></div>
+            <div class="now-reading">${escapeHtml(featured.title)}</div>
+            <div class="now-reading-by">by ${escapeHtml(featured.author)}</div>
+          </a>
+        `;
+      })()}
+    </div>
+  `;
+}
+
+function rightWidgetsHTML() {
+  return `
+    <div class="widget">
+      <span class="widget-title">♥ about lumen ♥</span>
+      <p style="font-family:var(--font-pixel);font-size:11px;color:var(--ink-soft);line-height:1.6;margin:0">
+        a quiet little corner of the internet for big ideas, told gently.
+        every book is hand-picked & summarized with care ♡
+      </p>
+    </div>
+
+    <div class="widget">
+      <span class="widget-title">✿ link me ✿</span>
+      <div class="web-buttons">
+        <a class="web-button b1" href="#/" title="lumen">♡ LUMEN ♡</a>
+        <a class="web-button b2" href="#/" title="ideas">★ IDEAS ★</a>
+        <a class="web-button b3" href="#/" title="cozy">✿ COZY ✿</a>
+        <a class="web-button b4" href="#/" title="read">♥ READ ♥</a>
+      </div>
+    </div>
+
+    <div class="widget">
+      <span class="widget-title">✦ now playing ✦</span>
+      <p style="font-family:var(--font-pixel);font-size:11px;color:var(--rose);margin:0 0 4px">
+        ♪ rainy library lo-fi
+      </p>
+      <p style="font-family:var(--font-pixel);font-size:10px;color:var(--ink-mute);margin:0">
+        04:32 / ∞
+      </p>
+      <div style="margin-top:8px;height:5px;background:var(--rose-bg);border-radius:999px;overflow:hidden;border:1px solid var(--border)">
+        <div style="height:100%;width:42%;background:var(--rose)"></div>
+      </div>
+    </div>
+
+    <div class="widget">
+      <span class="widget-title">♡ mood ♡</span>
+      <p style="font-family:var(--font-cute);font-size:18px;color:var(--rose);margin:0">cozy &amp; curious ✿</p>
+    </div>
+  `;
 }
 
 /* ============================================================
@@ -113,78 +267,94 @@ function renderHome() {
     return matchesCat && matchesSearch;
   });
 
-  const today = new Date();
-  const dateStr = `${today.getMonth() + 1}-${today.getDate()}-${today.getFullYear()}`;
-
   app.innerHTML = `
+    <div class="lace-strip" aria-hidden="true"></div>
+
     <div class="container page-fade">
+      ${marqueeHTML()}
+
       <header class="banner">
         <div class="banner-stripes">
           <div class="banner-title-pill">
-            <h1>Lumen</h1>
-            <p>♡ a cozy library of big ideas ♡</p>
+            <h1>♡ LUMEN ♡</h1>
+            <p>a cozy library of big ideas</p>
           </div>
         </div>
         <div class="banner-welcome">
           ${avatarHTML(96)}
           <div class="welcome-text">
             <h2>hii, welcome back ! <span style="font-family:var(--font-sans);font-size:14px">(◕ᴗ◕✿)</span></h2>
-            <p>pick a little book — i'll read it to you in a soft voice, or you can curl up and read it yourself <span style="color:var(--rose)">♡</span></p>
-          </div>
-          <div class="banner-stats">
-            <span class="stat-pill">♥ ${state.books.length} books</span>
-            <span class="stat-pill purple">✿ updated ${dateStr}</span>
+            <p>★ pick a little book ★ i'll read it to you in a soft voice ★ or curl up &amp; read it yourself ★</p>
           </div>
         </div>
       </header>
 
-      <div class="toolbar">
-        <div class="search">
-          <input
-            type="search"
-            id="search"
-            placeholder="search a title or author..."
-            value="${escapeHtml(state.search)}"
-            autocomplete="off"
-          />
-        </div>
-        <div class="chips">
-          ${CATEGORIES.map((cat) => `
-            <button
-              class="chip ${state.category === cat ? "active" : ""}"
-              data-cat="${cat}"
-            >${state.category === cat ? "♥ " : ""}${cat}</button>
-          `).join("")}
-        </div>
-      </div>
+      <div class="page">
+        <aside class="side-col left">
+          ${leftWidgetsHTML()}
+        </aside>
 
-      ${
-        filtered.length > 0
-          ? `
-        <div class="section-head">
-          <h2>${state.category === "All" ? "everything on the shelf" : state.category + " corner"}</h2>
-          <span class="count">(${filtered.length} ${filtered.length === 1 ? "book" : "books"})</span>
-        </div>
-        <div class="grid">
-          ${filtered.map(cardHTML).join("")}
-        </div>
-      `
-          : `
-        <div class="empty" style="margin-top:24px">
-          <h3>no books here yet (｡•́︿•̀｡)</h3>
-          <p>try a different shelf?</p>
-          <button class="pill" id="clear-filters">♥ show me everything</button>
-        </div>
-      `
-      }
+        <main class="main-col">
+          <div class="toolbar">
+            <div class="search">
+              <input
+                type="search"
+                id="search"
+                placeholder="search a title or author..."
+                value="${escapeHtml(state.search)}"
+                autocomplete="off"
+              />
+            </div>
+            <div class="chips">
+              ${CATEGORIES.map((cat) => `
+                <button
+                  class="chip ${state.category === cat ? "active" : ""}"
+                  data-cat="${cat}"
+                >${state.category === cat ? "♥ " : ""}${cat}</button>
+              `).join("")}
+            </div>
+          </div>
 
-      <div class="footer-note">
-        <p>stay as long as you'd like ♡</p>
-        <p>made with ♥ + tea</p>
+          <div class="divider" aria-hidden="true"></div>
+
+          ${
+            filtered.length > 0
+              ? `
+            <div class="section-head">
+              <h2>${state.category === "All" ? "✿ everything on the shelf ✿" : "✿ " + state.category + " corner ✿"}</h2>
+              <span class="count">(${filtered.length} ${filtered.length === 1 ? "book" : "books"})</span>
+            </div>
+            <div class="grid">
+              ${filtered.map(cardHTML).join("")}
+            </div>
+          `
+              : `
+            <div class="empty" style="margin-top:18px">
+              <h3>no books here yet (｡•́︿•̀｡)</h3>
+              <p>try a different shelf?</p>
+              <button class="pill" id="clear-filters">♥ show me everything</button>
+            </div>
+          `
+          }
+
+          <div class="divider" aria-hidden="true"></div>
+
+          <div class="footer-note">
+            <p>stay as long as you'd like ♡</p>
+            <p>made with ♥ + tea ・ neocities-style ・ all hand-stitched</p>
+          </div>
+        </main>
+
+        <aside class="side-col right">
+          ${rightWidgetsHTML()}
+        </aside>
       </div>
     </div>
+
+    <div class="lace-strip bottom" aria-hidden="true"></div>
   `;
 
+  // Wire up search
   const searchInput = document.getElementById("search");
   if (searchInput) {
     searchInput.addEventListener("input", (e) => {
@@ -202,6 +372,15 @@ function renderHome() {
   document.querySelectorAll(".chip").forEach((el) => {
     el.addEventListener("click", () => {
       state.category = el.dataset.cat;
+      renderHome();
+    });
+  });
+
+  // Shelf widget links
+  document.querySelectorAll("[data-shelf]").forEach((el) => {
+    el.addEventListener("click", (e) => {
+      e.preventDefault();
+      state.category = el.dataset.shelf;
       renderHome();
     });
   });
@@ -225,7 +404,7 @@ function cardHTML(book) {
       </div>
       <div class="card-meta">
         <h3>${escapeHtml(book.title)}</h3>
-        <p>${escapeHtml(book.author)}</p>
+        <p>by ${escapeHtml(book.author)}</p>
         <span class="cat-badge" data-cat="${escapeHtml(book.category)}">♥ ${escapeHtml(book.category)}</span>
       </div>
     </a>
@@ -234,8 +413,6 @@ function cardHTML(book) {
 
 /* ============================================================
    BOOK DETAIL PAGE
-   Cover + title + author + short description + Read/Listen
-   buttons + key takeaways. (No full summary inline.)
    ============================================================ */
 function renderDetail(id) {
   const book = state.books.find((b) => b.id === id);
@@ -244,6 +421,8 @@ function renderDetail(id) {
   document.title = `${book.title} ♡ Lumen`;
 
   app.innerHTML = `
+    <div class="lace-strip" aria-hidden="true"></div>
+
     <div class="container page-fade">
       <a class="back-link pill" href="#/">← back to library</a>
 
@@ -296,12 +475,13 @@ function renderDetail(id) {
 
       <div style="height:60px"></div>
     </div>
+
+    <div class="lace-strip bottom" aria-hidden="true"></div>
   `;
 }
 
 /* ============================================================
    READ MODE PAGE
-   Full summary with adjustable font size and progress bar.
    ============================================================ */
 function renderRead(id) {
   const book = state.books.find((b) => b.id === id);
@@ -359,7 +539,6 @@ function renderRead(id) {
     </div>
   `;
 
-  // Font controls
   const article = document.getElementById("read-article");
   const setSize = (s) => {
     fontSize = Math.max(14, Math.min(26, s));
@@ -369,7 +548,6 @@ function renderRead(id) {
   document.getElementById("font-down").addEventListener("click", () => setSize(fontSize - 2));
   document.getElementById("font-up").addEventListener("click", () => setSize(fontSize + 2));
 
-  // Reading progress bar
   const progressEl = document.getElementById("read-progress");
   const onScroll = () => {
     const h = document.documentElement;
@@ -383,7 +561,6 @@ function renderRead(id) {
 
 /* ============================================================
    LISTEN MODE PAGE
-   Browser SpeechSynthesis API — fully client-side, fully static.
    ============================================================ */
 function buildScriptFromBook(book) {
   const lines = [];
@@ -488,7 +665,6 @@ function renderListen(id) {
 
   if (!supportsSpeech) return;
 
-  // Wire up voices
   const voiceSelect = document.getElementById("voice-select");
   const populateVoices = () => {
     const all = window.speechSynthesis.getVoices();
@@ -496,9 +672,8 @@ function renderListen(id) {
     voiceSelect.innerHTML = state.listen.voices
       .map((v) => `<option value="${escapeHtml(v.name)}">${escapeHtml(v.name)} (${escapeHtml(v.lang)})</option>`)
       .join("") || `<option>default voice</option>`;
-    if (state.listen.voiceName) {
-      voiceSelect.value = state.listen.voiceName;
-    } else if (state.listen.voices[0]) {
+    if (state.listen.voiceName) voiceSelect.value = state.listen.voiceName;
+    else if (state.listen.voices[0]) {
       state.listen.voiceName = state.listen.voices[0].name;
       voiceSelect.value = state.listen.voiceName;
     }
@@ -512,7 +687,6 @@ function renderListen(id) {
     localStorage.setItem("lumen.voice", state.listen.voiceName);
   });
 
-  // Speed
   const rateSelect = document.getElementById("rate-select");
   rateSelect.value = String(state.listen.rate);
   rateSelect.addEventListener("change", () => {
@@ -520,13 +694,9 @@ function renderListen(id) {
     localStorage.setItem("lumen.rate", String(state.listen.rate));
   });
 
-  // Buttons
-  const playBtn   = document.getElementById("btn-play");
-  const stopBtn   = document.getElementById("btn-stop");
-  const restartBtn = document.getElementById("btn-restart");
-  playBtn.addEventListener("click", () => togglePlay());
-  stopBtn.addEventListener("click", () => stopPlayback());
-  restartBtn.addEventListener("click", () => {
+  document.getElementById("btn-play").addEventListener("click", togglePlay);
+  document.getElementById("btn-stop").addEventListener("click", stopPlayback);
+  document.getElementById("btn-restart").addEventListener("click", () => {
     stopPlayback();
     state.listen.index = 0;
     updateProgress();
@@ -538,19 +708,16 @@ function setCaption(text) {
   const el = document.getElementById("caption");
   if (el) el.textContent = text;
 }
-
 function setStatus(text) {
   const el = document.getElementById("status-pill");
   if (el) el.textContent = text;
 }
-
 function setPlayIcon(playing) {
   const el = document.getElementById("play-icon");
   if (el) el.textContent = playing ? "❚❚" : "▶";
   const stage = document.getElementById("stage-avatar");
   if (stage) stage.classList.toggle("speaking", playing);
 }
-
 function updateProgress() {
   if (!state.listen) return;
   const total = state.listen.segments.length;
@@ -561,11 +728,9 @@ function updateProgress() {
   if (fill) fill.style.width = (pct * 100).toFixed(1) + "%";
   if (txt)  txt.textContent  = Math.round(pct * 100) + "%";
 }
-
 function speakCurrent() {
   if (!state.listen) return;
   const { segments, index, voices, voiceName, rate } = state.listen;
-
   if (index >= segments.length) {
     state.listen.isPlaying = false;
     setPlayIcon(false);
@@ -573,16 +738,13 @@ function speakCurrent() {
     setCaption("finished — well done ♡");
     return;
   }
-
   const text = segments[index];
   setCaption(text);
-
   const utter = new SpeechSynthesisUtterance(text);
   utter.rate = rate;
   utter.pitch = 1.05;
   const voice = voices.find((v) => v.name === voiceName);
   if (voice) utter.voice = voice;
-
   utter.onend = () => {
     if (!state.listen || !state.listen.isPlaying) return;
     state.listen.index += 1;
@@ -595,13 +757,10 @@ function speakCurrent() {
     setPlayIcon(false);
     setStatus("✿ error");
   };
-
   window.speechSynthesis.speak(utter);
 }
-
 function togglePlay() {
   if (!state.listen) return;
-
   if (state.listen.isPaused) {
     window.speechSynthesis.resume();
     state.listen.isPaused = false;
@@ -610,7 +769,6 @@ function togglePlay() {
     setStatus("✿ playing");
     return;
   }
-
   if (state.listen.isPlaying) {
     window.speechSynthesis.pause();
     state.listen.isPaused = true;
@@ -619,7 +777,6 @@ function togglePlay() {
     setStatus("✿ paused");
     return;
   }
-
   state.listen.isPlaying = true;
   state.listen.isPaused = false;
   setPlayIcon(true);
@@ -627,7 +784,6 @@ function togglePlay() {
   updateProgress();
   speakCurrent();
 }
-
 function stopPlayback() {
   if (!state.listen) return;
   try { window.speechSynthesis.cancel(); } catch (_) {}
@@ -637,7 +793,6 @@ function stopPlayback() {
   setStatus("✿ stopped");
 }
 
-/* ---------- Not found ---------- */
 function renderNotFound() {
   document.title = "Not found ♡ Lumen";
   app.innerHTML = `
