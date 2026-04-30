@@ -42,6 +42,12 @@ uri = "file://artifacts/lumen-library/src/assets/covers/principles-of-human-know
 type = "image"
 title = "berkeley kawaii cover"
 
+[[generated]]
+id = "fNiQQwgSEVVuwBuhpT6Mg"
+uri = "file://artifacts/lumen-library/public/avatar/girl-reading.png"
+type = "image"
+title = "girl-reading-avatar"
+
 [[outputs]]
 id = "mda2YjDF63hrzLNtUKxKm"
 uri = "file://artifacts/lumen-library/dist/lumen-neocities.tar.gz"
