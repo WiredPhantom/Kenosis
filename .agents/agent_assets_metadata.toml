@@ -288,6 +288,18 @@ uri = "file://artifacts/lumen-library/public/covers/words-that-change-minds.png"
 type = "image"
 title = "generated_image"
 
+[[generated]]
+id = "8t_Ps0tJ6miC1xrWsJXU2"
+uri = "file://artifacts/lumen-library/public/covers/how-to-make-shit-happen.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "gDQdTGKeien6FYa2yxA2j"
+uri = "file://artifacts/lumen-library/public/covers/negotiation-hacks.png"
+type = "image"
+title = "generated_image"
+
 [[outputs]]
 id = "mda2YjDF63hrzLNtUKxKm"
 uri = "file://artifacts/lumen-library/dist/lumen-neocities.tar.gz"
