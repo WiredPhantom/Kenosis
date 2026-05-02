@@ -234,6 +234,60 @@ uri = "file://artifacts/lumen-library/public/covers/art-and-business-of-writing.
 type = "image"
 title = "generated_image"
 
+[[generated]]
+id = "gqonxEFb4d5g53mmjl0I0"
+uri = "file://artifacts/lumen-library/public/covers/paradox-of-choice.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "WBYPT9OLRXXOke38NqHQX"
+uri = "file://artifacts/lumen-library/public/covers/dopamine-detox.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "X16HoNn4t-DIbnhk8c-E6"
+uri = "file://artifacts/lumen-library/public/covers/scrum.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "-dUUIgUQ8u6s5YVab70AH"
+uri = "file://artifacts/lumen-library/public/covers/science-of-self-discipline.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "O2wg28v-mTLzWCjbE-asq"
+uri = "file://artifacts/lumen-library/public/covers/charisma-myth.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "7kWBAAQ12EbCfM507UXNC"
+uri = "file://artifacts/lumen-library/public/covers/emotional-intelligence.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "9bdwpmjFtTm1XSWnnGULv"
+uri = "file://artifacts/lumen-library/public/covers/male-brain.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "gi_865TEyuaEp76dp0Ac9"
+uri = "file://artifacts/lumen-library/public/covers/female-brain.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "VfkpwfZiNiME5KLVtNUgu"
+uri = "file://artifacts/lumen-library/public/covers/words-that-change-minds.png"
+type = "image"
+title = "generated_image"
+
 [[outputs]]
 id = "mda2YjDF63hrzLNtUKxKm"
 uri = "file://artifacts/lumen-library/dist/lumen-neocities.tar.gz"
