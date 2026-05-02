@@ -168,6 +168,66 @@ uri = "file://artifacts/lumen-library/public/covers/thinking-fast-and-slow.png"
 type = "image"
 title = "generated_image"
 
+[[generated]]
+id = "-QRncSgylJytYMcWg1N1g"
+uri = "file://artifacts/lumen-library/public/covers/influence.png"
+type = "image"
+title = "influence cover"
+
+[[generated]]
+id = "TDLrz7fqu-Qc9CxMx1BI_"
+uri = "file://artifacts/lumen-library/public/covers/happiness-equation.png"
+type = "image"
+title = "happiness equation cover"
+
+[[generated]]
+id = "GCz3Je4UJQopfcpeOLrKc"
+uri = "file://artifacts/lumen-library/public/covers/dopamine-nation.png"
+type = "image"
+title = "dopamine nation cover"
+
+[[generated]]
+id = "ccrJ2e3Zi6uzFafs7CrPm"
+uri = "file://artifacts/lumen-library/public/covers/winner-effect.png"
+type = "image"
+title = "winner effect cover"
+
+[[generated]]
+id = "rZRqM9r9kz45o1WzmeBEM"
+uri = "file://artifacts/lumen-library/public/covers/misbehaving.png"
+type = "image"
+title = "misbehaving cover"
+
+[[generated]]
+id = "bvpS7U8vIQBLj77Vn7QgU"
+uri = "file://artifacts/lumen-library/public/covers/mans-search-for-meaning.png"
+type = "image"
+title = "mans search for meaning cover"
+
+[[generated]]
+id = "jAUhECg05ASUTXF0KRDy8"
+uri = "file://artifacts/lumen-library/public/covers/meditations.png"
+type = "image"
+title = "meditations cover"
+
+[[generated]]
+id = "ZWgdVXnqfMA6WGELY09d7"
+uri = "file://artifacts/lumen-library/public/covers/storyworthy.png"
+type = "image"
+title = "storyworthy cover"
+
+[[generated]]
+id = "NTzEHCTb1kRpLbvtZtJ6a"
+uri = "file://artifacts/lumen-library/public/covers/made-to-stick.png"
+type = "image"
+title = "made to stick cover"
+
+[[generated]]
+id = "RbqhyuZ_6iCQWc5qj1CP9"
+uri = "file://artifacts/lumen-library/public/covers/steal-like-an-artist.png"
+type = "image"
+title = "steal like an artist cover"
+
 [[outputs]]
 id = "mda2YjDF63hrzLNtUKxKm"
 uri = "file://artifacts/lumen-library/dist/lumen-neocities.tar.gz"
