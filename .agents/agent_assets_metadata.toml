@@ -48,6 +48,66 @@ uri = "file://artifacts/lumen-library/public/avatar/girl-reading.png"
 type = "image"
 title = "girl-reading-avatar"
 
+[[generated]]
+id = "-0gmvtnFVtxPIisD0cYW2"
+uri = "file://artifacts/lumen-library/public/covers/atomic-habits.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "17X1Z8v4DvBqvIMkQlDKJ"
+uri = "file://artifacts/lumen-library/public/covers/deep-work.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "zmqBHb1oYic44B249MVxb"
+uri = "file://artifacts/lumen-library/public/covers/make-time.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "PNaI1CaU9iPUc2_ABRW5R"
+uri = "file://artifacts/lumen-library/public/covers/subtle-art.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "ZdAnbPKvdCJ3gk65aSLyJ"
+uri = "file://artifacts/lumen-library/public/covers/the-5-am-club.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "HZdxuWy3DGLBXGKAaXxbB"
+uri = "file://artifacts/lumen-library/public/covers/12-rules-for-life.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "mkP18EpnRsxx-mk5t_-FI"
+uri = "file://artifacts/lumen-library/public/covers/everything-is-fcked.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "tjZtMW7Zcxub1k5IAcaHm"
+uri = "file://artifacts/lumen-library/public/covers/12-week-year.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "9JUkS8uPWSHe04ZSp_pF_"
+uri = "file://artifacts/lumen-library/public/covers/cant-hurt-me.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "7HuCWPSr8Bn2hscpQ6Z7a"
+uri = "file://artifacts/lumen-library/public/covers/essentialism.png"
+type = "image"
+title = "generated_image"
+
 [[outputs]]
 id = "mda2YjDF63hrzLNtUKxKm"
 uri = "file://artifacts/lumen-library/dist/lumen-neocities.tar.gz"

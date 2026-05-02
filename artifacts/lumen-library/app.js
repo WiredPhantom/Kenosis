@@ -9,7 +9,7 @@
      #/book/:id/listen       → listen mode (browser SpeechSynthesis)
    ============================================================ */
 
-const CATEGORIES = ["All", "Philosophy", "Self-Help", "Psychology", "Business", "Science", "Spirituality"];
+const CATEGORIES = ["All", "Philosophy", "Self-Help", "Business", "Science"];
 
 const state = {
   books: [],
@@ -151,12 +151,7 @@ function render() {
    ============================================================ */
 function marqueeHTML() {
   const items = [
-    "♡ welcome to lumen — a cozy library of big ideas",
-    "✿ now stocking " + state.books.length + " little books",
-    "★ press play in listen mode and lumi reads to you",
-    "♡ updated " + new Date().toLocaleDateString(),
-    "✦ a hand-stitched site, made with tea and love",
-    "✿ pick a book — settle in — stay as long as you like",
+    "✦ a reader lives a thousand lives before he dies. the man who never reads lives only one. — george r.r. martin",
   ];
   // Duplicate for seamless loop
   const line = items.map(t => `<span>${escapeHtml(t)}</span>`).join("");
@@ -168,88 +163,8 @@ function marqueeHTML() {
 }
 
 /* ============================================================
-   SIDE WIDGETS
+   SIDE WIDGETS (removed)
    ============================================================ */
-function leftWidgetsHTML() {
-  const today = new Date();
-  const dateStr = `${today.getMonth() + 1}/${today.getDate()}/${today.getFullYear()}`;
-  return `
-    <div class="widget">
-      <span class="widget-title">♡ visitors ♡</span>
-      <div class="visitor-counter">${visitorCount()}</div>
-      <ul style="margin-top:10px">
-        <li><span>updated</span><span class="v">${dateStr}</span></li>
-        <li><span>books</span><span class="v">${state.books.length}</span></li>
-        <li><span>since</span><span class="v">2026</span></li>
-      </ul>
-    </div>
-
-    <div class="widget">
-      <span class="widget-title">✿ shelves ✿</span>
-      <ul>
-        ${CATEGORIES.slice(1).map(cat => {
-          const count = state.books.filter(b => b.category === cat).length;
-          return `<li><a href="#/" data-shelf="${escapeHtml(cat)}" style="color:inherit;text-decoration:none;flex:1">${escapeHtml(cat.toLowerCase())}</a><span class="v">${count}</span></li>`;
-        }).join("")}
-      </ul>
-    </div>
-
-    <div class="widget">
-      <span class="widget-title">★ now reading ★</span>
-      ${(() => {
-        const featured = state.books[0];
-        if (!featured) return `<p style="font-family:var(--font-pixel);font-size:11px;color:var(--ink-mute)">no books yet…</p>`;
-        return `
-          <a href="#/book/${encodeURIComponent(featured.id)}" style="color:inherit;text-decoration:none">
-            <div class="mini-cover"><img src="${escapeHtml(featured.coverImageUrl)}" alt=""/></div>
-            <div class="now-reading">${escapeHtml(featured.title)}</div>
-            <div class="now-reading-by">by ${escapeHtml(featured.author)}</div>
-          </a>
-        `;
-      })()}
-    </div>
-  `;
-}
-
-function rightWidgetsHTML() {
-  return `
-    <div class="widget">
-      <span class="widget-title">♥ about lumen ♥</span>
-      <p style="font-family:var(--font-pixel);font-size:11px;color:var(--ink-soft);line-height:1.6;margin:0">
-        a quiet little corner of the internet for big ideas, told gently.
-        every book is hand-picked & summarized with care ♡
-      </p>
-    </div>
-
-    <div class="widget">
-      <span class="widget-title">✿ link me ✿</span>
-      <div class="web-buttons">
-        <a class="web-button b1" href="#/" title="lumen">♡ LUMEN ♡</a>
-        <a class="web-button b2" href="#/" title="ideas">★ IDEAS ★</a>
-        <a class="web-button b3" href="#/" title="cozy">✿ COZY ✿</a>
-        <a class="web-button b4" href="#/" title="read">♥ READ ♥</a>
-      </div>
-    </div>
-
-    <div class="widget">
-      <span class="widget-title">✦ now playing ✦</span>
-      <p style="font-family:var(--font-pixel);font-size:11px;color:var(--rose);margin:0 0 4px">
-        ♪ rainy library lo-fi
-      </p>
-      <p style="font-family:var(--font-pixel);font-size:10px;color:var(--ink-mute);margin:0">
-        04:32 / ∞
-      </p>
-      <div style="margin-top:8px;height:5px;background:var(--rose-bg);border-radius:999px;overflow:hidden;border:1px solid var(--border)">
-        <div style="height:100%;width:42%;background:var(--rose)"></div>
-      </div>
-    </div>
-
-    <div class="widget">
-      <span class="widget-title">♡ mood ♡</span>
-      <p style="font-family:var(--font-cute);font-size:18px;color:var(--rose);margin:0">cozy &amp; curious ✿</p>
-    </div>
-  `;
-}
 
 /* ============================================================
    HOME PAGE
@@ -290,10 +205,6 @@ function renderHome() {
       </header>
 
       <div class="page">
-        <aside class="side-col left">
-          ${leftWidgetsHTML()}
-        </aside>
-
         <main class="main-col">
           <div class="toolbar">
             <div class="search">
@@ -341,13 +252,10 @@ function renderHome() {
 
           <div class="footer-note">
             <p>stay as long as you'd like ♡</p>
-            <p>made with ♥ + tea ・ neocities-style ・ all hand-stitched</p>
+            <p><a href="https://wiredphantom.neocities.org/navi" target="_blank" rel="noopener" style="color:var(--rose);text-decoration:none;font-family:var(--font-pixel);font-size:11px">✦ Wired Phantom ✦</a></p>
           </div>
         </main>
 
-        <aside class="side-col right">
-          ${rightWidgetsHTML()}
-        </aside>
       </div>
     </div>
 
@@ -395,12 +303,50 @@ function renderHome() {
   }
 }
 
+function coverFallbackStyle(book) {
+  const palettes = {
+    "Philosophy":   "background:linear-gradient(135deg,#e8e0ff,#c9b8f0);color:#6a3fa0",
+    "Self-Help":    "background:linear-gradient(135deg,#ffd6e8,#ffb3cc);color:#a03060",
+    "Psychology":   "background:linear-gradient(135deg,#d6eaff,#b3d0ff);color:#2a5fa0",
+    "Business":     "background:linear-gradient(135deg,#fff3cc,#ffe099);color:#a06820",
+    "Science":      "background:linear-gradient(135deg,#d6ffe8,#b3f0cc);color:#1a7a40",
+    "Spirituality": "background:linear-gradient(135deg,#e0f0ff,#c0dff5);color:#2060a0",
+  };
+  return palettes[book.category] || palettes["Self-Help"];
+}
+
+function coverImgHTML(book, extraClass = "") {
+  const fallStyle = coverFallbackStyle(book);
+  return `
+    <img
+      src="${escapeHtml(book.coverImageUrl)}"
+      alt="Cover of ${escapeHtml(book.title)}"
+      loading="lazy"
+      class="${extraClass}"
+      onerror="
+        this.style.display='none';
+        this.nextElementSibling.style.display='flex';
+      "
+    />
+    <div class="cover-fallback" style="${fallStyle};display:none">
+      <span class="cover-fallback-icon">${categoryIcon(book.category)}</span>
+      <span class="cover-fallback-title">${escapeHtml(book.title)}</span>
+      <span class="cover-fallback-author">by ${escapeHtml(book.author)}</span>
+    </div>
+  `;
+}
+
+function categoryIcon(cat) {
+  const icons = { Philosophy:"✦", "Self-Help":"♡", Psychology:"✿", Business:"★", Science:"❋", Spirituality:"☽" };
+  return icons[cat] || "♥";
+}
+
 function cardHTML(book) {
   return `
     <a class="card" href="#/book/${encodeURIComponent(book.id)}">
       <div class="card-cover">
         <span class="tape" aria-hidden="true"></span>
-        <img src="${escapeHtml(book.coverImageUrl)}" alt="Cover of ${escapeHtml(book.title)}" loading="lazy" />
+        ${coverImgHTML(book)}
       </div>
       <div class="card-meta">
         <h3>${escapeHtml(book.title)}</h3>
@@ -431,7 +377,7 @@ function renderDetail(id) {
           <div class="detail-cover">
             <span class="tape" aria-hidden="true"></span>
             <div class="img-wrap">
-              <img src="${escapeHtml(book.coverImageUrl)}" alt="Cover of ${escapeHtml(book.title)}" />
+              ${coverImgHTML(book)}
             </div>
           </div>
 

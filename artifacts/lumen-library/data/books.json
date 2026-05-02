@@ -18,14 +18,7 @@
         "heading": "What's in it for you?",
         "paragraphs": [
           "Most of us live as if there is a solid, mind-independent world out there made of \"matter,\" and our minds simply look in on it. George Berkeley argues — calmly, almost cheerfully — that this picture is incoherent.",
-          "In these blinks you'll meet immaterialism: the view that reality is made entirely of minds and their ideas. You'll see how Berkeley uses this single move to defend common sense, dissolve skepticism, and leave room for both natural science and God."
-        ]
-      },
-      {
-        "heading": "Knowledge is built from ideas, not hidden things",
-        "paragraphs": [
-          "Berkeley begins with what is undeniable: the objects of human knowledge are ideas. Some are sensations (colors, sounds, tastes), some are remembered or imagined, some are emotions and operations of the mind itself.",
-          "Behind every claim about the world is, in fact, an experience in some mind. Philosophy goes wrong, he says, the moment it slips from talking about ideas we actually have to talking about a hidden world we can never reach."
+          "In this summary you'll meet immaterialism: the view that reality is made entirely of minds and their ideas. You'll see how Berkeley uses this single move to defend common sense, dissolve skepticism, and leave room for both natural science and God."
         ]
       },
       {
@@ -38,43 +31,1462 @@
       {
         "heading": "There is no such thing as \"matter\"",
         "paragraphs": [
-          "Philosophers had assumed an invisible substance called matter that supposedly carries the qualities we perceive. Berkeley asks: what would matter be, stripped of every quality you could possibly experience? The answer is nothing — a word with no idea behind it.",
+          "Philosophers had assumed an invisible substance called matter that supposedly carries the qualities we perceive. Berkeley asks: what would matter be, stripped of every quality you could possibly experience? The answer is nothing.",
           "Worse, the idea of matter is the breeding ground of skepticism. If reality lies behind a veil of mere appearance, we can never check whether our ideas match it. Drop matter, and the veil disappears with it."
-        ]
-      },
-      {
-        "heading": "Primary and secondary qualities collapse together",
-        "paragraphs": [
-          "Locke and others split qualities in two: \"primary\" ones like shape, motion, and extension supposedly belong to objects themselves, while \"secondary\" ones like color, sound, and taste exist only in the mind.",
-          "Berkeley shows the line cannot hold. Try to imagine a shape with no color, or motion with no perceived speed — you can't. Every \"primary\" quality is just as mind-dependent as the \"secondary\" ones. All qualities live in perception."
-        ]
-      },
-      {
-        "heading": "Abstract general ideas are a linguistic illusion",
-        "paragraphs": [
-          "We talk easily about \"triangle in general\" or \"man in general,\" and assume the mind forms a matching abstract picture. Berkeley denies this. Every actual idea you can summon is particular: this triangle, this person.",
-          "What we really do is use a particular idea as a stand-in for many similar ones, helped along by a general word. Many philosophical puzzles, he thinks, come from mistaking a useful linguistic shortcut for a mysterious mental object."
-        ]
-      },
-      {
-        "heading": "The orderly world is sustained by an infinite Mind",
-        "paragraphs": [
-          "If things exist only when perceived, why doesn't your room blink out the moment you close your eyes? Berkeley's answer: because it is continuously perceived by God, the infinite Spirit in whom \"we live, and move, and have our being.\"",
-          "The regular laws of nature are, on this view, the steady habits of God's perception — a kind of language by which the divine mind speaks to ours. Science is the study of this language, not of dead matter pushing dead matter around."
-        ]
-      },
-      {
-        "heading": "Why immaterialism rescues common sense",
-        "paragraphs": [
-          "Critics accuse Berkeley of denying the world, but he insists he's the true defender of common sense. Ordinary people never talk about \"matter in itself\"; they talk about apples they can taste and friends they can hug. Immaterialism keeps all of that intact.",
-          "What it removes is only a philosopher's invention — an unobservable substratum — that generates skepticism, atheism, and endless metaphysical puzzles. Strip it away, and the world we actually experience is left standing, vivid and meaningful."
         ]
       },
       {
         "heading": "Final summary",
         "paragraphs": [
           "The Principles of Human Knowledge is a short, daring book with a single big idea: nothing exists except minds and the ideas within them. Reality is perception, held together and made lawful by the perception of God.",
-          "Whether or not you accept Berkeley's conclusion, the questions he forces are unforgettable: What do you really mean when you call something \"real\"? What lies beyond your experience, and how could you ever know? Three centuries later, philosophy of mind, physics, and even debates about virtual reality keep circling back to his quiet, mischievous answer."
+          "Whether or not you accept Berkeley's conclusion, the questions he forces are unforgettable: What do you really mean when you call something \"real\"? Three centuries later, philosophy of mind, physics, and even debates about virtual reality keep circling back to his quiet, mischievous answer."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "atomic-habits",
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "category": "Self-Help",
+    "coverImageUrl": "covers/atomic-habits.png",
+    "shortDescription": "Tiny changes, remarkable results. James Clear's argument that real transformation doesn't come from giant leaps but from 1% improvements compounding over time — and a practical system for making good habits stick and bad ones break.",
+    "keyTakeaways": [
+      "Habits are the compound interest of self-improvement — small changes look trivial day-to-day but are staggering over years.",
+      "Every action is a vote for the type of person you want to become. Identity-based habits outlast outcome-based ones.",
+      "The Four Laws of Behavior Change: make it obvious, attractive, easy, and satisfying.",
+      "Environment design beats willpower every time — put good habits on the path of least resistance.",
+      "The Two-Minute Rule: scale any habit down to two minutes to reduce the barrier to starting."
+    ],
+    "summarySections": [
+      {
+        "heading": "The surprising power of tiny changes",
+        "paragraphs": [
+          "James Clear opens with a startling fact: a 1% improvement every day for a year leaves you 37 times better. A 1% decline leaves you nearly zero. The difference in outcomes is enormous, but the daily actions look identical to an outside observer.",
+          "Most people aim for big, dramatic changes — a complete diet overhaul, a six-hour morning routine. When those collapse, they feel like failures. Clear argues the real problem was the system, not the person."
+        ]
+      },
+      {
+        "heading": "Identity: the hidden driver of habits",
+        "paragraphs": [
+          "There are three layers to change: outcomes, processes, and identity. Most habit advice focuses on outcomes (\"I want to lose 20 lbs\"). Clear argues you should start with identity: \"I am the kind of person who moves every day.\"",
+          "Every time you perform a habit, you cast a vote for that identity. Two votes aren't convincing. Two hundred are. Habits are how you prove to yourself — and to the world — who you are."
+        ]
+      },
+      {
+        "heading": "The Four Laws of Behavior Change",
+        "paragraphs": [
+          "Clear distills decades of behavioral science into four levers. To build a habit: make it obvious (cue), attractive (craving), easy (response), and satisfying (reward). To break one: invert each law.",
+          "Implementation intentions (\"I will [behavior] at [time] in [place]\") dramatically increase follow-through. Habit stacking — anchoring a new behavior to an existing one — gives the cue a reliable trigger without any extra effort."
+        ]
+      },
+      {
+        "heading": "Environment is everything",
+        "paragraphs": [
+          "Willpower is a finite, unreliable resource. Environment is stable and designable. People who seem to have great self-control are often just people who have built environments where temptation rarely arises.",
+          "Want to read more? Leave a book on your pillow. Want to eat less junk? Put fruit on the counter and hide snacks on a high shelf. The person you want to be lives in the environment you build for them."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "Atomic Habits is a practical field guide for behavior change. Its core message: you don't rise to the level of your goals — you fall to the level of your systems. Goals set direction; habits determine whether you ever arrive.",
+          "Start embarrassingly small. Make the obvious easy. Stack rewards. And remember: every tiny action is a vote for the person you're becoming."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deep-work",
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "category": "Self-Help",
+    "coverImageUrl": "covers/deep-work.png",
+    "shortDescription": "The ability to focus without distraction on cognitively demanding tasks is becoming rare — and increasingly valuable. Cal Newport's case for why deep work is the superpower of the 21st century, and how to cultivate it.",
+    "keyTakeaways": [
+      "Deep work — focused, distraction-free concentration on difficult tasks — produces more value per hour than almost any other activity.",
+      "Shallow work (email, meetings, admin) is necessary but should be minimized. It rarely moves the needle.",
+      "The ability to learn hard things quickly and produce at an elite level requires deep work. Both skills are trainable.",
+      "Schedule every minute of your day — not to be rigid, but to spend your time on what actually matters.",
+      "Embrace boredom. Training your brain to tolerate unstructured time without reaching for distraction is essential."
+    ],
+    "summarySections": [
+      {
+        "heading": "Why deep work is the key skill of the knowledge economy",
+        "paragraphs": [
+          "Cal Newport defines deep work as \"professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit.\" He argues this is both rare and incredibly valuable in the modern economy.",
+          "Two groups will thrive: those who can work creatively with intelligent machines, and those who are superstars in their fields. Both require the ability to focus deeply. Most knowledge workers, ironically, spend the bulk of their day in the shallow end."
+        ]
+      },
+      {
+        "heading": "The four philosophies of deep work",
+        "paragraphs": [
+          "Newport presents four ways to fit deep work into your life: Monastic (cut off almost all shallow work), Bimodal (alternate deep and shallow periods, weekly or seasonally), Rhythmic (a fixed daily deep work block), and Journalistic (fit it in whenever you can).",
+          "Most people do best with the Rhythmic philosophy — a consistent morning or evening window, protected like a meeting with your most important client."
+        ]
+      },
+      {
+        "heading": "Embrace boredom, quit social media deliberately",
+        "paragraphs": [
+          "Newport's controversial argument: if you spend every moment of downtime scrolling, you train your brain to crave stimulation. When you sit down for deep work, that trained brain fights you every minute.",
+          "His prescription: schedule breaks from focus, not breaks from distraction. Be bored sometimes. And evaluate social media tools not on whether they have any value, but whether they are the best tool for their purpose."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "Deep Work is partly a manifesto and partly a practical manual. Newport's core claim is simple: the ability to focus is becoming more rare and more valuable at exactly the same time. It's a remarkable combination.",
+          "The book is worth reading for anyone who suspects they're producing less than they're capable of — which is most of us."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "make-time",
+    "title": "Make Time",
+    "author": "Jake Knapp & John Zeratsky",
+    "category": "Self-Help",
+    "coverImageUrl": "covers/make-time.png",
+    "shortDescription": "Two ex-Google designers share their field-tested system for getting off the distraction treadmill and spending your days on what actually matters to you — not what the Infinity Pools and Busy Bandwagon demand.",
+    "keyTakeaways": [
+      "Pick one \"Highlight\" each day — a single meaningful task you'll be proud of when you go to bed.",
+      "Infinity Pools (social media, news, Netflix) are engineered to drain your time. You have to fight back by design.",
+      "Energy fuels focus. Sleep, movement, real food, and quiet time are productivity strategies, not luxuries.",
+      "Make your phone less interesting — log out of apps, delete social media, switch to grayscale.",
+      "Reflect briefly every evening: did you get your Highlight? What would you do differently tomorrow?"
+    ],
+    "summarySections": [
+      {
+        "heading": "The Highlight: one meaningful priority per day",
+        "paragraphs": [
+          "Most productivity systems ask you to do more. Make Time asks you to choose one thing — your Highlight — that will make the day feel worthwhile. It's not necessarily your most urgent task, but the one you'll be glad you did.",
+          "Highlights can be ambitious projects, simple joys, or important relationships. The point is that you choose it with intention, rather than letting the inbox and the feed choose for you."
+        ]
+      },
+      {
+        "heading": "Defeating the Infinity Pools",
+        "paragraphs": [
+          "Knapp and Zeratsky use \"Infinity Pools\" for apps that generate endless content — social media, news, YouTube. These are specifically designed to consume as much of your attention as possible. Fighting them with willpower is a losing battle.",
+          "Their tactics: delete apps from your phone, log out after every use, set your homepage to a blank screen, use website blockers. Make the default behavior hard, not easy."
+        ]
+      },
+      {
+        "heading": "Energy: the underrated foundation",
+        "paragraphs": [
+          "You can't focus deeply when you're exhausted, hungry, or sedentary. The authors devote a large section to what they call \"energizing\" — sleep, real food (not energy drinks), movement every day, and time outdoors.",
+          "A 20-minute walk without a podcast or phone outperforms most productivity hacks in terms of its effect on focus and mood. The body isn't separate from the work — it's the hardware it runs on."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "Make Time is warm, practical, and unusually honest about the forces working against us. The authors aren't selling a rigid system — they offer a menu of tactics and invite you to experiment.",
+          "At its heart the book is a reminder that your time is yours. The feed will always have more content. Your life only has so many days."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "subtle-art",
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "category": "Self-Help",
+    "coverImageUrl": "covers/subtle-art.png",
+    "shortDescription": "A counterintuitive guide to living a good life — not by chasing positivity and avoiding pain, but by choosing what to care about deeply and accepting that struggle is unavoidable. Brutally honest and surprisingly wise.",
+    "keyTakeaways": [
+      "You have a limited number of f*cks to give. Spend them on what truly matters; stop leaking them onto things that don't.",
+      "The desire to avoid pain is itself a source of suffering. Accept that some level of struggle is unavoidable and choose your struggles wisely.",
+      "Problems never go away. Happiness comes from solving meaningful problems, not from eliminating them.",
+      "You are responsible for everything in your life — even things that aren't your fault. Responsibility and fault are different.",
+      "Certainty kills growth. Embrace doubt and the willingness to be wrong as a precondition for learning."
+    ],
+    "summarySections": [
+      {
+        "heading": "The feedback loop from hell",
+        "paragraphs": [
+          "Modern life constantly tells us we should feel better, look better, be better — and that if we don't, something is wrong with us. This creates what Manson calls the Feedback Loop from Hell: feeling anxious about feeling anxious, guilty about feeling guilty.",
+          "His counterintuitive prescription: stop trying to feel good. Start trying to feel something real. Acknowledging negative emotions, rather than smothering them with toxic positivity, is where growth begins."
+        ]
+      },
+      {
+        "heading": "Choose your struggles",
+        "paragraphs": [
+          "Everyone wants the good parts of success — the money, the recognition, the result. But Manson asks: what pain are you willing to endure? The answer reveals what you actually value, as opposed to what you say you value.",
+          "He argues happiness is found not in solving all your problems but in having problems worth solving. The question isn't \"what do I want?\" but \"what am I willing to suffer for?\""
+        ]
+      },
+      {
+        "heading": "You are not special, and that's okay",
+        "paragraphs": [
+          "The self-esteem movement of the 80s and 90s told a generation that everyone was exceptional. Manson's blunt counter: most of us are average at most things. The belief that we deserve to be exceptional without doing exceptional things is at the root of modern dissatisfaction.",
+          "Accepting your ordinariness in most areas frees you to focus genuine energy on the one or two things that actually matter to you — instead of performing greatness for others."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "The Subtle Art is the self-help book that hates self-help books. Manson writes with profane directness about things most personal-development writers avoid: failure, meaninglessness, death, and the hard limits of human potential.",
+          "Its deepest insight is almost Buddhist: life is suffering; the goal isn't to escape suffering but to choose suffering that matters."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "the-5-am-club",
+    "title": "The 5 AM Club",
+    "author": "Robin Sharma",
+    "category": "Self-Help",
+    "coverImageUrl": "covers/the-5-am-club.png",
+    "shortDescription": "The legendary leadership coach Robin Sharma reveals why owning your morning is the gateway to mastery, genius, and world-class performance — told through a fable about an eccentric billionaire and his unusual students.",
+    "keyTakeaways": [
+      "The first hour of the day is the Victory Hour — win it and you set the tone for everything that follows.",
+      "The 20/20/20 Formula: spend the first 20 minutes moving, the next 20 reflecting, and the final 20 learning.",
+      "World-class performance requires solitude and stillness, not just hustle and busyness.",
+      "The Twin Cycles of Elite Performance: stress alternates with recovery. Both are essential.",
+      "Small daily habits, compounded across years, produce monumental results — Sharma calls this the 1% Infinity Principle."
+    ],
+    "summarySections": [
+      {
+        "heading": "Why own your morning",
+        "paragraphs": [
+          "Sharma argues that the brain is most primed for peak performance in the first hour after waking — before email, social media, and the demands of others colonize your mental bandwidth. Protecting this time is, he says, the single most powerful habit a high performer can build.",
+          "The fable follows two struggling individuals who meet an eccentric billionaire. He promises to teach them the secret to extraordinary output and deep fulfilment, which turns out to revolve entirely around how they begin each day."
+        ]
+      },
+      {
+        "heading": "The 20/20/20 Formula",
+        "paragraphs": [
+          "The practical heart of the book: spend the first 20 minutes of your 5 AM hour in intense movement (exercise floods the brain with dopamine, serotonin, and BDNF — a chemical that literally grows new neurons). The next 20 in reflection: journaling, meditation, gratitude. The final 20 in learning: reading, listening, studying.",
+          "This routine isn't about productivity for its own sake. It's about arriving at your day as a whole, calm, energized person rather than a reactive one."
+        ]
+      },
+      {
+        "heading": "Solitude as a performance tool",
+        "paragraphs": [
+          "One of Sharma's quieter but more profound points: all the great creators, leaders, and innovators in history built regular solitude into their lives. Quiet isn't wasted time. It is the crucible in which deep thinking, creativity, and self-knowledge are forged.",
+          "In an age of constant connectivity, choosing to be unreachable for 60 minutes each morning is almost a radical act — and one with compounding returns."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "The 5 AM Club is a motivational book packaged as a fable. The story is thin but the ideas are earnest and the core prescription is backed by real neuroscience: morning exercise, reflection, and learning reliably set up a better day.",
+          "Whether you join the 5 AM Club literally or just protect the first hour of your morning in any form, the principle holds: how you begin shapes everything that follows."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12-rules-for-life",
+    "title": "12 Rules for Life",
+    "author": "Jordan B. Peterson",
+    "category": "Psychology",
+    "coverImageUrl": "covers/12-rules-for-life.png",
+    "shortDescription": "A clinical psychologist's sweeping synthesis of mythology, neuroscience, and philosophy to answer the question: how should you live? Structured around twelve memorable rules for confronting chaos and building a meaningful existence.",
+    "keyTakeaways": [
+      "Stand up straight with your shoulders back — not just physically but psychologically, accepting responsibility and engaging the world.",
+      "Treat yourself like someone you are responsible for helping. Most people are more compassionate toward others than toward themselves.",
+      "Compare yourself to who you were yesterday, not to who someone else is today.",
+      "Pursue what is meaningful, not what is expedient. Meaning involves voluntary adoption of responsibility.",
+      "When you don't know what to do, tell the truth — or at least stop lying to yourself."
+    ],
+    "summarySections": [
+      {
+        "heading": "Order, chaos, and the individual",
+        "paragraphs": [
+          "Peterson opens with a striking biological observation: dominance hierarchies are ancient — lobsters have them, and they run on serotonin just as ours do. Your posture signals your place in the hierarchy to yourself and others. Standing straight, Peterson argues, is a genuine act of self-assertion.",
+          "His broader framework: life oscillates between order (the known, the safe, the familiar) and chaos (the unknown, the threatening, the new). The ideal is not maximum order but standing at the edge — engaged with challenge but not overwhelmed by it."
+        ]
+      },
+      {
+        "heading": "Treat yourself like someone worth helping",
+        "paragraphs": [
+          "Rule Two emerges from an observation: people are often far better at caring for their pets than for themselves. They'll fill a dog's prescription but not their own. Peterson calls this a failure of self-respect rooted in unclear self-knowledge.",
+          "The prescription: treat yourself as you would treat someone you genuinely care for. That means feeding yourself well, sleeping, setting limits on what others can demand of you, and pursuing what actually matters — not just what is easy or expected."
+        ]
+      },
+      {
+        "heading": "Meaning over expedience",
+        "paragraphs": [
+          "Peterson's most important distinction is between meaning and expedience. Expedience is what makes your immediate situation easier; meaning is what makes your life worth living. They often conflict.",
+          "He argues that the voluntary adoption of responsibility — choosing a burden worth carrying — is the deepest source of meaning available to human beings. Not happiness, not pleasure, not safety. Responsibility accepted with open eyes."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "12 Rules for Life draws on an extraordinary range — Dostoevsky, Jung, the Book of Genesis, evolutionary psychology, clinical case studies — to make a fundamentally conservative argument: life is hard, and the ancient wisdom embedded in tradition and myth exists for good reason.",
+          "Agree with Peterson or not, the book rewards careful reading. Its core message — clean up your own life before you try to fix the world — is hard to argue with."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "everything-is-fcked",
+    "title": "Everything is F*cked",
+    "author": "Mark Manson",
+    "category": "Philosophy",
+    "coverImageUrl": "covers/everything-is-fcked.png",
+    "shortDescription": "Manson's follow-up wrestles with a paradox: the modern world is objectively the safest and most comfortable in human history, yet people feel more hopeless than ever. Why — and what do we do about it?",
+    "keyTakeaways": [
+      "Hope requires three things: a cause to believe in, a sense of control over your life, and a feeling that the future will be better than the present.",
+      "We are not rational beings who occasionally feel emotions — we are emotional beings who occasionally rationalise.",
+      "Pain is the universal constant; without problems to solve, humans manufacture them.",
+      "Maturity means giving up the childish need for the world to be fair and taking responsibility regardless.",
+      "The Uncomfortable Truth: life is finite, meaningless at the cosmic scale, and all the more precious for it."
+    ],
+    "summarySections": [
+      {
+        "heading": "The paradox of progress",
+        "paragraphs": [
+          "By every measurable standard, life for most humans is better than it has ever been. Violence is down. Poverty is down. Life expectancy is up. Yet mental illness, addiction, and nihilism are rising. Manson's question: why does improvement feel like despair?",
+          "His answer: hope is not generated by material comfort. It is generated by having something to struggle for. Remove the struggle and you don't create happiness — you create a crisis of meaning."
+        ]
+      },
+      {
+        "heading": "The Thinking Brain vs. the Feeling Brain",
+        "paragraphs": [
+          "Manson builds on Jonathan Haidt's metaphor of an elephant (emotions) and a rider (reason). The rider believes it is in charge; it is not. It is a rationalizer — it finds reasons for what the elephant already wants to do.",
+          "This matters because almost every large-scale human failure — political fanaticism, addiction, tribalism — is the Feeling Brain hijacking the Thinking Brain into service of its immediate emotional needs."
+        ]
+      },
+      {
+        "heading": "Religion, ideology, and the Newton of consciousness",
+        "paragraphs": [
+          "Manson traces the history of hope from religious faith through Enlightenment reason through modern ideologies, arguing that each successive hope-generating framework has collapsed. We're left with the internet, which is very good at anger and very bad at meaning.",
+          "He introduces Immanuel Kant's concept of treating people as ends in themselves — never merely as means — as the one enduring ethical principle that survives the collapse of every other framework."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "Everything is F*cked is darker and more philosophical than its predecessor, and less practically actionable. But its diagnosis of modernity's malaise — comfort without meaning, safety without purpose — feels uncomfortably accurate.",
+          "The antidote Manson offers is not optimism but maturity: the willingness to act without certainty and care without needing the world to care back."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12-week-year",
+    "title": "The 12 Week Year",
+    "author": "Brian P. Moran",
+    "category": "Business",
+    "coverImageUrl": "covers/12-week-year.png",
+    "shortDescription": "The single biggest obstacle to your goals isn't your skill or your work ethic — it's time. Moran's system treats each 12-week period as a complete year, eliminating the slow start, the mid-year lag, and the desperate fourth-quarter scramble.",
+    "keyTakeaways": [
+      "Annualizing goals creates urgency only in Q4. Compressing your year to 12 weeks creates urgency every single week.",
+      "A great plan and poor execution beats a perfect plan never executed. Most execution failures are planning failures.",
+      "Weekly scorecards — tracking the process metrics you control — matter more than tracking outcomes.",
+      "The Model Block: schedule your most important work first, in time blocks nothing else can displace.",
+      "Commitment is a decision, not a feeling. You honour it even — especially — when motivation is absent."
+    ],
+    "summarySections": [
+      {
+        "heading": "Why annual goals fail",
+        "paragraphs": [
+          "Moran spent years studying high performance and found a consistent pattern: people treat January through September as a run-up, allow for slack, and then sprint desperately through December. The year is effectively one productive quarter surrounded by good intentions.",
+          "His solution is simple to state and surprisingly difficult to internalize: compress the year. Twelve weeks IS your year. Week one of each 12-week period is January. Week twelve is December. What would you do differently if that were true?"
+        ]
+      },
+      {
+        "heading": "The execution system",
+        "paragraphs": [
+          "The 12 Week Year system has five components: vision (why it matters), goals (what you want to achieve in 12 weeks), a plan (the weekly tactics that will get you there), process control (tracking whether you execute the plan), and a measurement scorecard.",
+          "The scorecard is non-negotiable. Each week, you track your execution percentage — not outcomes, but whether you did what you said you would do. An 85% execution rate consistently produces results. Most people hover around 50%."
+        ]
+      },
+      {
+        "heading": "The Model Week",
+        "paragraphs": [
+          "Most knowledge workers let their calendar fill up reactively — meetings, requests, urgencies pile in and the important work gets squeezed to weekends. Moran prescribes a Model Week: an ideal template where strategic time blocks are scheduled first and protected fiercely.",
+          "Strategic blocks (3-4 hour deep-work sessions), buffer blocks (for reactive tasks), and breakout blocks (true recovery time) are all scheduled intentionally. The goal is to lead your time, not be led by it."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "The 12 Week Year is not a philosophy book — it's a detailed operating system. The ideas are not especially novel, but the packaging is tight and the accountability mechanisms are genuinely useful.",
+          "If you consistently feel like the year got away from you, the 12-week structure is worth a serious trial. One cycle is enough to know whether it works for you."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cant-hurt-me",
+    "title": "Can't Hurt Me",
+    "author": "David Goggins",
+    "category": "Self-Help",
+    "coverImageUrl": "covers/cant-hurt-me.png",
+    "shortDescription": "David Goggins grew up in abject poverty and abuse, failed academically, and weighed 300 lbs. He became a Navy SEAL, an Army Ranger, a world record holder in pull-ups, and one of the greatest ultra-endurance athletes alive. This is how.",
+    "keyTakeaways": [
+      "We only use about 40% of our potential. The '40% Rule': when your mind says quit, you're only 40% done.",
+      "Callus your mind the same way you callus your hands — by doing hard things repeatedly, especially when you don't want to.",
+      "Accountability Mirror: look yourself in the eye daily and tell the truth about who you are and what you need to do.",
+      "Taking souls: perform so well in the face of contempt or doubt that your excellence becomes undeniable.",
+      "Governor off: your brain is a survival organ that imposes artificial limits. Learn to override them."
+    ],
+    "summarySections": [
+      {
+        "heading": "From darkness to determination",
+        "paragraphs": [
+          "Goggins opens with an unflinching account of his childhood: a violent father, grinding poverty, racism, and an academic record that reflected not his intelligence but the chaos of his life. He failed his ASVAB test (the military entrance exam) twice.",
+          "Rather than frame this as an excuse, Goggins treats it as data about what he was — not who he had to be. The transformation from 300-lb pest control worker to elite military operator and ultra-athlete is the spine of the book."
+        ]
+      },
+      {
+        "heading": "The 40% Rule",
+        "paragraphs": [
+          "Goggins's most quoted insight: when your mind tells you to stop, your body has only used about 40% of its capacity. The governor in your brain — evolved to protect you from genuine danger — kicks in far too early under modern conditions.",
+          "He is not advising recklessness. He is advising that the sensation of wanting to quit is almost always a signal to push, not a signal to stop. Distinguishing real physical limit from mental complaint is a learnable skill."
+        ]
+      },
+      {
+        "heading": "The Accountability Mirror",
+        "paragraphs": [
+          "One of Goggins's early practices: post-it notes on his bathroom mirror listing every uncomfortable truth about himself and every challenge he was afraid to face. Every morning, he was forced to confront them.",
+          "He calls this radical honesty. Not self-hatred, but clear-eyed acknowledgment: here is what I am, here is what I said I would do, here is whether I did it. Most self-improvement fails at this step because people are afraid of what they'll see."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "Can't Hurt Me is extreme in a way most books are not. Goggins is not offering a comfortable path to marginal improvement. He is arguing that almost everyone is living far below their actual capacity and that the remedy is voluntary, repeated suffering.",
+          "You do not have to become David Goggins. But the book is a useful corrective to the comfortable story we tell ourselves about why we can't."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "essentialism",
+    "title": "Essentialism",
+    "author": "Greg McKeown",
+    "category": "Self-Help",
+    "coverImageUrl": "covers/essentialism.png",
+    "shortDescription": "The disciplined pursuit of less. Greg McKeown's case for why doing fewer things — but doing them deeply and completely — produces more impact than spreading your energy across everything that seems urgent and important.",
+    "keyTakeaways": [
+      "If you don't prioritize your life, someone else will. Saying yes to everything is saying no to the things that matter most.",
+      "The essentialist question: is this the most important use of my time and energy right now?",
+      "Trade-offs are real. You can't have everything. Making the trade-off explicit is better than pretending it doesn't exist.",
+      "Create space to think. Clarity about what matters requires margin — time that isn't already committed.",
+      "Boundaries protect your highest priorities. A clear no now prevents a resentful, half-hearted yes later."
+    ],
+    "summarySections": [
+      {
+        "heading": "The non-essentialist trap",
+        "paragraphs": [
+          "McKeown opens by describing a mode of living almost everyone recognizes: trying to do everything, saying yes to every request, being constantly busy but never feeling like you're doing your most important work. He calls this the Non-Essentialist, and argues it produces a peculiar kind of success that doesn't feel like success.",
+          "The antidote isn't time management. It's the prior question: is this worth managing at all? Essentialists explore many options but commit to very few, and they do so deliberately."
+        ]
+      },
+      {
+        "heading": "The way of the essentialist",
+        "paragraphs": [
+          "Essentialism rests on three beliefs: I choose to, only a few things really matter, and I can do anything but not everything. These sound obvious but are genuinely difficult to live by in a culture that rewards busyness and penalizes saying no.",
+          "McKeown's framework has three phases: explore (generate lots of options), eliminate (ruthlessly cut everything that isn't essential), and execute (remove obstacles so the essential happens effortlessly)."
+        ]
+      },
+      {
+        "heading": "The power of saying no",
+        "paragraphs": [
+          "The chapter on saying no is the practical heart of the book. McKeown distinguishes between a clear no, which is hard in the moment but ultimately respectful, and a vague yes, which is easier in the moment but leads to resentment, poor work, and broken commitments.",
+          "He offers a useful heuristic: if it's not a clear yes, it's a no. Most of us say yes to 60% of things. The essentialist says yes to only 10% — but those 10% receive everything."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "Essentialism is a slim, elegant book that makes one argument very well: almost everything is noise. The few things that are signal deserve your complete attention. Everything else deserves a graceful no.",
+          "It is harder to live than to read. But readers consistently report that the framework changes how they look at their calendar, their commitments, and their life."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "personal-mba",
+    "title": "The Personal MBA",
+    "author": "Josh Kaufman",
+    "category": "Business",
+    "coverImageUrl": "covers/personal-mba.png",
+    "shortDescription": "A master's degree in business, without the debt. Kaufman distills the core concepts of every major business discipline — strategy, marketing, finance, operations, human performance — into a single readable volume.",
+    "keyTakeaways": [
+      "Every successful business creates or provides something of value that other people want, in exchange for something of value they're willing to pay.",
+      "Five core business processes: value creation, marketing, sales, value delivery, and finance. Master these and you understand any business.",
+      "Systems thinking: all businesses are systems, and improving any system requires understanding its feedback loops.",
+      "The human mind is a biological system with predictable quirks — understanding cognitive biases is a competitive advantage.",
+      "Learning in public and building a reputation before you need it is one of the highest-return investments you can make."
+    ],
+    "summarySections": [
+      {
+        "heading": "Why you don't need an MBA",
+        "paragraphs": [
+          "Kaufman spent $250,000 researching business school and decided not to go. His argument: the core knowledge taught in MBA programs is publicly available, and much of what differentiates top programs is the network — which you can build through other means.",
+          "He spent years systematically reading the best books in every business discipline and distilling the key mental models. The Personal MBA is the result: a single volume designed to give you the thinking tools of a seasoned executive."
+        ]
+      },
+      {
+        "heading": "The five parts of every business",
+        "paragraphs": [
+          "Kaufman's foundational framework: every business creates value, markets it, sells it, delivers it, and manages its finances. Every business problem lives in one of these five areas. This framework is powerful because it helps you diagnose where a specific problem is actually occurring.",
+          "He goes through each in depth — value creation (what are you making and why would anyone want it?), marketing (getting the attention of people who might want it), sales (converting attention into commitment), delivery (fulfilling the promise), and finance (keeping score)."
+        ]
+      },
+      {
+        "heading": "Mental models and decision-making",
+        "paragraphs": [
+          "The second half of the book is about human performance — how to think, learn, make decisions, and work with others more effectively. Kaufman borrows heavily from cognitive psychology, systems thinking, and decision science.",
+          "Key ideas: understand your cognitive biases so they work for you rather than against you. Use checklists and systems for high-stakes decisions. Build habits that reduce decision fatigue. Seek feedback loops that tell you quickly whether you're on track."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "The Personal MBA is encyclopedic in scope but accessible in tone. It won't replace the depth you'd get from reading 50 individual business books, but it serves as an excellent framework — a table of contents for a business education you can customize.",
+          "Best used as a reference: read it once, flag the chapters relevant to your current situation, and return to those sections when you face a specific problem."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lean-startup",
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "category": "Business",
+    "coverImageUrl": "covers/lean-startup.png",
+    "shortDescription": "Eric Ries's blueprint for building companies under conditions of extreme uncertainty. The Lean Startup method replaces the traditional business plan with rapid experimentation, validated learning, and the pivot.",
+    "keyTakeaways": [
+      "The goal of a startup is to find a sustainable business model as quickly as possible — not to execute a plan.",
+      "Validated learning: every product decision should be treated as an experiment. Measure real customer behavior, not assumptions.",
+      "Build-Measure-Learn: build the minimum viable product, measure what customers actually do, learn from the data, repeat.",
+      "The pivot: a structured course correction designed to test a new hypothesis when the current one is falsified.",
+      "Vanity metrics (pageviews, sign-ups) feel good but reveal nothing. Actionable metrics (cohort retention, conversion per channel) drive real decisions."
+    ],
+    "summarySections": [
+      {
+        "heading": "The problem with traditional startups",
+        "paragraphs": [
+          "Ries opens with a confession: he worked on a startup that spent years building a product nobody wanted. They followed a careful business plan, built every feature on the roadmap, launched — and heard crickets.",
+          "The problem wasn't execution. The problem was that the plan was based entirely on untested assumptions. Traditional startups treat planning and execution as separate phases. Lean Startups treat every phase as an experiment."
+        ]
+      },
+      {
+        "heading": "The Build-Measure-Learn loop",
+        "paragraphs": [
+          "The core of the method: everything starts with a hypothesis about what customers want. You build the minimum thing needed to test the hypothesis (an MVP), measure what customers actually do with it, and learn whether your hypothesis was right.",
+          "The MVP is not a rough version of your final product. It's the cheapest, fastest way to test a specific assumption. It could be a landing page, a concierge service, or even a paper prototype."
+        ]
+      },
+      {
+        "heading": "Pivot or persevere",
+        "paragraphs": [
+          "The most emotionally difficult and most important decision in a startup is knowing when to pivot. A pivot is not giving up. It is a structured, evidence-driven decision to change a fundamental aspect of the business model while retaining what you've learned.",
+          "Ries describes several types: customer pivot (same problem, different customer), problem pivot (same customer, different problem), revenue pivot (different monetization model). Each is born from validated learning, not frustration."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "The Lean Startup introduced a vocabulary — MVP, pivot, validated learning, Build-Measure-Learn — that has become standard in the startup world. Its influence is hard to overstate.",
+          "Beyond startups, the framework is applicable anywhere you face uncertainty: new products in large companies, social programs, personal experiments. The core insight is universal: assumptions are not facts until tested."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "think-and-grow-rich",
+    "title": "Think and Grow Rich",
+    "author": "Napoleon Hill",
+    "category": "Business",
+    "coverImageUrl": "covers/think-and-grow-rich.png",
+    "shortDescription": "Published in 1937 after Hill interviewed 500 of the most successful people in America, this is the original self-help and personal-finance classic — a blueprint of the mental habits that separate people who achieve from people who merely wish.",
+    "keyTakeaways": [
+      "Desire: a burning, obsessive desire is the starting point of all achievement. Not a wish — a decision.",
+      "Faith: the ability to believe in your goal before it is real is a trained mental state, not a gift.",
+      "Autosuggestion: repeated affirmation programs the subconscious mind, which then influences all your actions.",
+      "Specialized knowledge, imagination, and organized planning are the practical tools that convert desire into results.",
+      "The Master Mind: no great achievement is accomplished alone. Deliberately build a group of aligned minds."
+    ],
+    "summarySections": [
+      {
+        "heading": "Desire: the starting point",
+        "paragraphs": [
+          "Hill opens with the story of Edwin Barnes, who arrived at Thomas Edison's laboratory with nothing but a burning desire to work with Edison — not for him, but with him. He slept in the station, took any job offered, and waited. Years later he was Edison's most successful partner.",
+          "Hill argues this story illustrates the first principle: all achievement starts with a specific, obsessive desire. Not a wish or a hope, but a precise goal held with emotional intensity. The specificity matters. \"I want to be rich\" is a wish. \"I will have $50,000 by December 31\" is a desire."
+        ]
+      },
+      {
+        "heading": "The subconscious mind and autosuggestion",
+        "paragraphs": [
+          "Hill's most controversial argument is that the subconscious mind is the engine of achievement, and that it can be deliberately programmed through autosuggestion — the deliberate repetition of charged, emotionally vivid statements of your goal.",
+          "Modern neuroscience offers partial support: the brain's reticular activating system filters the world for what you have decided is important. A mind focused on a goal will notice opportunities, connections, and information that an unfocused mind filters out."
+        ]
+      },
+      {
+        "heading": "The Master Mind principle",
+        "paragraphs": [
+          "Hill observed that every great achievement in his study involved a coordinated group of people. He called this the Master Mind: two or more people working toward a definite purpose in a spirit of harmony. The group's combined intelligence and energy exceeds what any individual could produce.",
+          "This is not just networking. It is intentional alignment of people toward a shared goal, with mutual accountability. Hill found that the quality and alignment of a person's inner circle was more predictive of success than almost any other factor."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "Think and Grow Rich is old, and its language is dated, and some of its metaphysics is dubious. But it has outsold almost everything written since because its core observations about desire, focus, persistence, and relationships are simply correct.",
+          "Read it for the principles, not the prose. The book is a product of its time, but its insights about the psychology of achievement have aged remarkably well."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "millionaire-fastlane",
+    "title": "The Millionaire Fastlane",
+    "author": "MJ DeMarco",
+    "category": "Business",
+    "coverImageUrl": "covers/millionaire-fastlane.png",
+    "shortDescription": "DeMarco's blunt demolition of the \"get-a-job, save-10%, invest-in-index-funds, retire-at-65\" roadmap — and his case for why building a business that creates value for millions of people is the only route to wealth while you're young enough to enjoy it.",
+    "keyTakeaways": [
+      "The Slowlane (job + savings + retirement) trades your best years for a future you might not live to enjoy. The Fastlane builds wealth-generating assets now.",
+      "Wealth = freedom, not net worth. A large number in a bank account is worthless if you spent 40 years to accumulate it.",
+      "The Law of Effection: the more lives you impact, the more wealth you create. Scale and magnitude are the keys.",
+      "You must control the business. Franchisees, employees, and investors are not on the Fastlane — owners are.",
+      "Stop being a consumer of solutions and start being a producer. Every complaint is a business opportunity."
+    ],
+    "summarySections": [
+      {
+        "heading": "The three roadmaps",
+        "paragraphs": [
+          "DeMarco describes three financial paths: the Sidewalk (spend everything, no plan, perpetually broke), the Slowlane (the conventional wisdom path: get a job, invest 10%, retire at 65), and the Fastlane (build a scalable business that creates real value).",
+          "His problem with the Slowlane is not that it doesn't work — it does, eventually. His problem is the timeline. Following the Slowlane correctly means trading your 20s, 30s, 40s, and 50s for a retirement you may not live to see, or that illness and circumstance may reduce. He calls this a bad deal."
+        ]
+      },
+      {
+        "heading": "The Law of Effection",
+        "paragraphs": [
+          "DeMarco's central insight about wealth creation: money is a reflection of value delivered. The more people you help, and the more deeply you help them, the more money flows to you. He calls this the Law of Effection.",
+          "This means the path to wealth is not finding a way to extract money from people — it is finding a way to serve millions of people at scale. The business, the product, the service is a vehicle for delivering value at scale."
+        ]
+      },
+      {
+        "heading": "CENTS: the Fastlane business test",
+        "paragraphs": [
+          "DeMarco tests any business opportunity against five criteria: Control (do you own and control the system?), Entry (is the barrier high enough to protect you?), Need (does it solve a real problem people have?), Time (is income decoupled from your time?), Scale (can it reach millions?).",
+          "A freelance career that requires your personal time and has unlimited entry fails most of these. A productized business that scales beyond your personal hours and creates a defensible product passes. The difference is strategic, not effort-based."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "The Millionaire Fastlane is provocative by design. DeMarco writes with an abrasiveness that puts some readers off and motivates others. The core message, stripped of the bravado, is sound: trading time for money at the margin is a linear strategy; building assets that generate value at scale is exponential.",
+          "The book is best for readers who suspect that the conventional financial advice they've received was designed for a different era, and who are willing to take the harder road of building something instead of just optimizing their savings rate."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rich-dad-poor-dad",
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert T. Kiyosaki",
+    "category": "Business",
+    "coverImageUrl": "covers/rich-dad-poor-dad.png",
+    "shortDescription": "The book that changed how millions of people think about money. Kiyosaki's contrast between his own \"poor dad\" (educated, employee mindset) and his friend's \"rich dad\" (asset-builder, investor mindset) is a timeless lesson in financial literacy.",
+    "keyTakeaways": [
+      "The rich don't work for money — they make money work for them by acquiring assets.",
+      "An asset puts money in your pocket. A liability takes money out. Your house is a liability, not an asset.",
+      "Financial literacy — understanding the cash flow of assets and liabilities — is not taught in school and is the true foundation of wealth.",
+      "Mind your own business: build your asset column alongside your job, not instead of it.",
+      "Taxes and corporations are tools. The financially educated use them; the financially uneducated pay them."
+    ],
+    "summarySections": [
+      {
+        "heading": "Two dads, two mindsets",
+        "paragraphs": [
+          "Kiyosaki grew up with two father figures. His own father — the \"poor dad\" — was a highly educated government employee who believed in job security, promotions, and pensions. His friend Mike's father — the \"rich dad\" — was an entrepreneur who believed in buying assets and building income streams.",
+          "Both were intelligent and hardworking. The difference was not effort or intelligence. It was a fundamental belief about how money works — and how to use it as a tool."
+        ]
+      },
+      {
+        "heading": "The most important distinction: assets vs. liabilities",
+        "paragraphs": [
+          "Rich Dad's most important lesson: an asset puts money in your pocket; a liability takes money out. This sounds obvious until you apply it honestly. A house you live in requires mortgage, taxes, and maintenance — it is a liability. A car depreciates — liability. A savings account barely keeps pace with inflation — marginal asset.",
+          "The path to wealth is accumulating income-producing assets: rental properties, stocks, businesses, intellectual property. The poor buy liabilities thinking they are assets. The middle class does the same on a larger scale."
+        ]
+      },
+      {
+        "heading": "Mind your own business",
+        "paragraphs": [
+          "Kiyosaki's third lesson: keep your job — it pays the bills — but work on building your asset column with whatever surplus you have. Most people work hard, get a raise, get a bigger house, need the job even more. The wealthy use income to buy assets that generate more income.",
+          "This requires patience, financial education, and the willingness to delay gratification in a culture that promotes consumption. It is not exciting. But it is how compound wealth actually works."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "Rich Dad Poor Dad is not a how-to manual. It is a mindset shift. Kiyosaki is teaching you to see money differently — as a tool, not as something you work for and spend.",
+          "Some of his specific advice is dated (the real estate market he wrote in was very different from today's) and some is genuinely questionable. But the core framework — assets vs. liabilities, financial literacy as a life skill — has held up remarkably well for a book published in 1997."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tools-of-titans",
+    "title": "Tools of Titans",
+    "author": "Tim Ferriss",
+    "category": "Self-Help",
+    "coverImageUrl": "covers/tools-of-titans.png",
+    "shortDescription": "Tim Ferriss distills five years of conversations with world-class performers — athletes, investors, military commanders, artists, and scientists — into a single volume of tools, tactics, and habits that separate the exceptional from the ordinary.",
+    "keyTakeaways": [
+      "Nearly every person Ferriss interviewed had a meditation or mindfulness practice. It's the single most common habit among high performers.",
+      "Fear-setting: defining your fears explicitly and asking \"what's the worst that could actually happen?\" defuses most anxiety.",
+      "Most 'golden opportunities' are built from boring, consistent fundamentals executed better than everyone else.",
+      "Being healthy is a duty, not a luxury. Physical performance directly enables mental performance.",
+      "The best in any field are often not more talented — they have simply tried more things and found what works for them."
+    ],
+    "summarySections": [
+      {
+        "heading": "The structure of the book",
+        "paragraphs": [
+          "Tools of Titans is not a narrative — it is a curated collection. Ferriss sorted his 200+ podcast interviews into three sections: Healthy (physical performance and wellbeing), Wealthy (career, finance, and business), and Wise (mindset, philosophy, and meaning).",
+          "Each profile is a dense collection of tactics — morning routines, book recommendations, daily habits, thinking tools — as well as the larger philosophy behind them. The book is designed to be skimmed, sampled, and returned to."
+        ]
+      },
+      {
+        "heading": "Patterns across the top 0.01%",
+        "paragraphs": [
+          "Ferriss found several consistent patterns across guests regardless of their field: the vast majority had some form of daily mindfulness practice. Almost all had strong opinions about sleep (most prioritized 8+ hours, in contrast to hustle culture's glorification of deprivation).",
+          "Most could point to a handful of principles or frameworks that governed the majority of their decisions — rather than making every choice from scratch, they had pre-committed to a set of rules that removed decision fatigue."
+        ]
+      },
+      {
+        "heading": "Selected ideas: fear-setting, morning routines, default habits",
+        "paragraphs": [
+          "Fear-setting (from Stoic philosopher Seneca): write down exactly what you're afraid will happen if you take the scary action. Write down what you'd do if those fears came true. Write down the cost of not acting at all. Most fears, subjected to this analysis, shrink dramatically.",
+          "Morning routines appeared in almost every high-performer's life, not because any particular routine is magical, but because starting the day with a structured ritual protects the first hours from reactive behavior and signals that you are in control."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "Tools of Titans is not meant to be read front to back — it's a reference library. Dip in, find a tactic that fits your current situation, apply it, return for more.",
+          "Its broader lesson: there is no single path to world-class performance. There are principles (consistency, recovery, deep work, clear values) and then there is endless individual variation. Your job is to find your own combination."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "almanack-naval",
+    "title": "The Almanack of Naval Ravikant",
+    "author": "Eric Jorgenson",
+    "category": "Business",
+    "coverImageUrl": "covers/almanack-naval.png",
+    "shortDescription": "A curated collection of Naval Ravikant's wisdom on wealth, happiness, and the good life — assembled by Eric Jorgenson from years of tweets, podcast appearances, and interviews. Dense with ideas, short on filler.",
+    "keyTakeaways": [
+      "Wealth is created by owning equity in things that create value at scale. Renting your time is the worst way to get rich.",
+      "Specific knowledge — the knowledge you have that cannot be taught, only earned through experience — is the foundation of leverage.",
+      "Happiness is a default state, not an achievement. It is what remains when you stop craving things to be different.",
+      "Read what you love, not what you feel you should. Curiosity is more durable than discipline.",
+      "The goal is not to do more, but to find the right things — the work and relationships that are worth doing at all."
+    ],
+    "summarySections": [
+      {
+        "heading": "Building wealth: the fundamental principles",
+        "paragraphs": [
+          "Naval distinguishes wealth from money. Money is a social construct, a medium of exchange. Wealth is assets — things that earn while you sleep. Business equity, code, media, real estate. The goal is to own a piece of something that creates value at scale, not to optimize your hourly rate.",
+          "He argues that almost every wealthy person achieved it through one of three forms of leverage: labor (other people working for you), capital (money making money), or products without marginal cost of replication — code and media. The last form is newly accessible to anyone with a computer."
+        ]
+      },
+      {
+        "heading": "Specific knowledge and accountability",
+        "paragraphs": [
+          "Naval's framework for career: combine specific knowledge (the knowledge you have that is uniquely yours, built from genuine curiosity and lived experience, not credentials) with high leverage and clear accountability.",
+          "Specific knowledge is not taught in school. It is what you do naturally, the things other people find hard that you find easy. Finding it requires genuine self-knowledge: what would you do for free? What do people consistently ask your help with?"
+        ]
+      },
+      {
+        "heading": "On happiness and the self",
+        "paragraphs": [
+          "The second half of the Almanack is about happiness, which Naval treats as a learnable skill. His premise: the mind is in constant motion — planning, worrying, comparing, judging. Happiness is the absence of craving, not the presence of something you've acquired.",
+          "His practices: meditation to learn the texture of his own mind. Reading to feed genuine curiosity. Physical fitness as a non-negotiable foundation. Time with people he loves over people who are merely useful. And the relentless elimination of people, commitments, and activities that drain rather than energize."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "The Almanack is unusual: a business-and-self-help book that treats both categories with equal seriousness, and that is short enough to finish in an afternoon but dense enough to think about for years.",
+          "Naval's core advice: find work that doesn't feel like work. Build assets, not a salary. Pursue health, love, and knowledge relentlessly. Judge your life by your own standard, not anyone else's."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4-hour-work-week",
+    "title": "The 4-Hour Work Week",
+    "author": "Tim Ferriss",
+    "category": "Business",
+    "coverImageUrl": "covers/4-hour-work-week.png",
+    "shortDescription": "The manifesto that launched a thousand digital nomads. Ferriss's challenge to the defer-life plan — work hard for 40 years, then live — and his step-by-step guide to joining the New Rich: those who design their lives around experiences, not retirement.",
+    "keyTakeaways": [
+      "The New Rich don't wait until retirement to live their dream life. They build it in parallel, through automation and elimination.",
+      "DEAL: Definition (what do you actually want?), Elimination (remove low-value activities with 80/20), Automation (outsource and systematize), Liberation (work from anywhere).",
+      "Most email, meetings, and \"urgent\" work is not important. 80% of results come from 20% of activities.",
+      "Fear-setting: define your fears precisely and ask what the realistic worst case actually is. Most risks are recoverable.",
+      "A muse: a low-maintenance automated business that generates cash without requiring your constant attention."
+    ],
+    "summarySections": [
+      {
+        "heading": "The defer-life plan and its alternative",
+        "paragraphs": [
+          "Ferriss opens with a question: what would you do if you couldn't fail? Not retire on a beach — something more specific. He noticed that most people couldn't answer because they had never seriously asked. The goal of the \"normal\" career path — work hard, save money, retire — is so accepted that the question of whether it makes sense never gets asked.",
+          "His alternative: mini-retirements distributed across your working years, funded by a business that generates income without requiring your full-time attention. He calls the people who have built this the New Rich."
+        ]
+      },
+      {
+        "heading": "Elimination: the 80/20 of everything",
+        "paragraphs": [
+          "Ferriss applies Pareto's Principle ruthlessly: 20% of your clients produce 80% of your revenue, and probably 80% of your stress. 20% of your tasks produce 80% of your output. Most email is not worth reading. Most meetings are not worth attending.",
+          "His prescription: identify the 20% that matters, protect it ferociously, and eliminate, automate, or delegate the rest. This is uncomfortable because it requires saying no to people and things that feel important but aren't."
+        ]
+      },
+      {
+        "heading": "Automation: the muse",
+        "paragraphs": [
+          "The practical core of the book: build a \"muse\" — a small, automated online business that generates cash without requiring your daily presence. Ferriss describes in detail how to find a product, test it cheaply, set up a website, and automate fulfillment using virtual assistants and outsourcing.",
+          "The tactics are dated (the book was published in 2007) but the principle isn't: the goal of the business is not to grow as big as possible. It is to generate enough cash to fund your desired lifestyle while demanding as little of your time as possible."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "The 4-Hour Work Week is a provocation as much as a manual. Many of its specific tactics are dated. But the underlying challenge — why are you deferring your life? — remains as potent as when it was written.",
+          "Even if you never build a muse or take a mini-retirement, the book is worth reading for one reason: it forces you to question the assumptions you've absorbed about what a good working life looks like."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "innovators-dilemma",
+    "title": "The Innovator's Dilemma",
+    "author": "Clayton M. Christensen",
+    "category": "Business",
+    "coverImageUrl": "covers/innovators-dilemma.png",
+    "shortDescription": "One of the most influential business books of the 20th century. Christensen's explanation for why great, well-managed companies repeatedly fail when faced with disruptive technologies — and what can be done about it.",
+    "keyTakeaways": [
+      "Disruptive innovations initially underperform on the metrics established customers care about, making them easy to ignore — until they don't.",
+      "Good management is the enemy of disruptive innovation. Rational decisions in the short term lead to catastrophic failure in the long term.",
+      "Markets for disruptive technology are unknown in advance. Planning and analysis are poor tools; small bets and rapid learning are better.",
+      "Create an independent unit to pursue disruptive opportunities. The mainstream organization will always starve it of resources.",
+      "The innovator's solution: disrupt yourself before someone else does."
+    ],
+    "summarySections": [
+      {
+        "heading": "The paradox: good management leads to failure",
+        "paragraphs": [
+          "Christensen's central finding is disturbing: the companies that failed in the face of disruption were not badly managed. They listened carefully to customers, invested in technology, and made sound financial decisions. And they failed because of it.",
+          "Their customers didn't want the disruptive technology — yet. Their financial models couldn't justify the margins. Their processes were optimized for the existing market. Every rational decision pushed them away from the technology that would eventually destroy them."
+        ]
+      },
+      {
+        "heading": "Sustaining vs. disruptive innovation",
+        "paragraphs": [
+          "The critical distinction: sustaining innovations improve existing products along established performance dimensions. They're what customers ask for and what incumbents are good at. Disruptive innovations initially perform worse on existing dimensions but offer different attributes — cheaper, simpler, more convenient — that appeal to overlooked customers.",
+          "The hard drive industry is Christensen's central case study. Disk after disk, new entrants disrupted incumbents who were doing everything right by their existing customers."
+        ]
+      },
+      {
+        "heading": "How to respond",
+        "paragraphs": [
+          "Christensen's prescription: create a separate, autonomous organization to pursue the disruptive technology. Give it different success metrics, different processes, different values. The mainstream organization cannot manage a disruptive opportunity — its culture, its customers, and its cost structure will always overwhelm the new thing.",
+          "The organization also needs to embrace uncertainty. When the market is unknown, planning is theatre. Small, fast experiments that generate real customer data are the only reliable input."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "The Innovator's Dilemma is required reading for anyone in a leadership position, in any industry. Its core lesson is uncomfortable: doing everything right can still lead to failure, because 'right' is defined by your current context, not the future one.",
+          "Published in 1997, it predicted the disruption of dozens of industries that have since been disrupted. The framework remains one of the most powerful lenses in business strategy."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thinking-fast-and-slow",
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "category": "Psychology",
+    "coverImageUrl": "covers/thinking-fast-and-slow.png",
+    "shortDescription": "Nobel Prize winner Daniel Kahneman's life's work, distilled. A tour of the two systems that drive human thought — the fast, intuitive System 1 and the slow, deliberate System 2 — and the predictable errors they produce.",
+    "keyTakeaways": [
+      "System 1 is fast, automatic, emotional, and unconscious. System 2 is slow, deliberate, effortful, and logical. System 1 is in charge most of the time.",
+      "Cognitive biases are not errors by stupid people — they are predictable features of a mind that evolved to be fast, not accurate.",
+      "Anchoring, availability, and representativeness are among the most powerful and pervasive cognitive biases.",
+      "Losses feel roughly twice as painful as equivalent gains feel good — loss aversion is one of the most documented effects in psychology.",
+      "What you see is all there is (WYSIATI): the mind constructs plausible stories from available information, ignoring what it doesn't know."
+    ],
+    "summarySections": [
+      {
+        "heading": "Two systems of thought",
+        "paragraphs": [
+          "Kahneman organizes four decades of research around a simple but powerful model: System 1 thinking (fast, automatic, intuitive, associative) and System 2 thinking (slow, deliberate, effortful, analytical). Neither is better — each is suited to different tasks.",
+          "The key insight: System 1 is almost always in charge. System 2 is lazy and expensive. When you feel certain, fluent, and relaxed, System 1 is running. System 2 only activates when something breaks pattern — a surprising event, an effortful calculation."
+        ]
+      },
+      {
+        "heading": "Heuristics and the predictable errors they cause",
+        "paragraphs": [
+          "Kahneman and Tversky's great discovery: human judgment uses heuristics (mental shortcuts) that are generally efficient but produce systematic, predictable errors. They called these cognitive biases, not to imply stupidity but to flag patterns.",
+          "Anchoring: you are influenced by the first number you see, even if it's meaningless. Availability: you estimate probability by how easily examples come to mind. Representativeness: you judge by resemblance to a prototype, ignoring base rates. All three are demonstrated with compelling experiments."
+        ]
+      },
+      {
+        "heading": "Loss aversion and Prospect Theory",
+        "paragraphs": [
+          "Kahneman and Tversky's most famous contribution is Prospect Theory: people don't evaluate outcomes in absolute terms but relative to a reference point, and losses hurt approximately twice as much as equivalent gains feel good.",
+          "This single finding explains a huge range of human behavior: why investors hold losing stocks too long, why negotiators anchor high, why people won't take a fair coin-flip gamble, why job satisfaction depends more on what you lost than what you have."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "Thinking, Fast and Slow is long, dense, and rewards careful reading. Its central gift is a vocabulary — System 1, System 2, anchoring, WYSIATI, loss aversion — that makes you a more precise observer of your own thinking.",
+          "Knowing a bias doesn't make you immune to it. But knowing it well enough to say 'this is System 1 speaking; let me invoke System 2' is a genuine cognitive upgrade."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "paradox-of-choice",
+    "title": "The Paradox of Choice",
+    "author": "Barry Schwartz",
+    "category": "Psychology",
+    "coverImageUrl": "covers/paradox-of-choice.png",
+    "shortDescription": "More choice is supposed to make us freer and happier. Barry Schwartz's thorough and sobering argument for why it often does the opposite — producing paralysis, regret, and a nagging sense that we should have chosen differently.",
+    "keyTakeaways": [
+      "When options multiply, decision-making becomes costly — what psychologists call the \"paradox of choice.\"",
+      "Maximizers (who seek the best option) are less happy than satisficers (who seek a 'good enough' option).",
+      "Opportunity cost: every choice means not choosing something else, and the more options there are, the larger the foregone alternatives loom.",
+      "Anticipated regret shapes decisions in irrational ways, especially when counterfactuals are easy to imagine.",
+      "Constrain your options deliberately. Good relationships, good enough choices, and reduced comparison reduce regret."
+    ],
+    "summarySections": [
+      {
+        "heading": "The problem with too much freedom",
+        "paragraphs": [
+          "Schwartz opens in a jeans store — 100 options, each promising to be the perfect fit. More information, more trial rooms, more decisions. He leaves exhausted and less confident he made the right choice than when he used to buy the one available style.",
+          "He argues this experience is symptomatic of modern life. The expansion of consumer choice was supposed to maximize individual welfare. But beyond a certain point, more choice reduces welfare by producing paralysis, anxiety, and regret."
+        ]
+      },
+      {
+        "heading": "Maximizers vs. satisficers",
+        "paragraphs": [
+          "Schwartz introduces one of the book's most useful distinctions: maximizers, who can only be satisfied by the objectively best option, and satisficers, who accept anything that meets their standard. Maximizers are miserable in a world of abundant choice because there is always a better option they haven't found yet.",
+          "The prescription: become a deliberate satisficer. Set your criteria in advance, choose the first option that meets them, and stop looking. This is not settling — it is rational behavior that leads to more satisfaction."
+        ]
+      },
+      {
+        "heading": "Regret, comparison, and the adaptation failure",
+        "paragraphs": [
+          "Every unchosen option is an implicit standard against which your choice is measured. With two options, you have one comparison. With 100, you have 99. Each forgone alternative is a source of regret — even if your choice was objectively excellent.",
+          "Compounding this: humans are poor predictors of their own emotional adaptation. We consistently overestimate how long bad outcomes will make us feel bad, and underestimate how quickly we adapt. This produces excessive caution and excessive regret."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "The Paradox of Choice is a short, readable book that makes a genuinely important point: the freedom to choose everything is not pure benefit. It comes with costs, and those costs are most heavily paid by people who are most determined to choose perfectly.",
+          "The practical advice is surprisingly conservative: simplify, constrain, decide 'good enough' more often, stop comparing. A smaller wardrobe, fewer streaming services, and a satisficing approach to most decisions might genuinely make you happier."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "influence",
+    "title": "Influence: The Psychology of Persuasion",
+    "author": "Robert B. Cialdini",
+    "category": "Psychology",
+    "coverImageUrl": "covers/influence.png",
+    "shortDescription": "Robert Cialdini spent three years working undercover as a sales trainee, fundraiser, and advertiser to discover the universal principles behind why people say yes. The result is the most cited book in the psychology of persuasion.",
+    "keyTakeaways": [
+      "Reciprocity: we feel obligated to return favors. A small gift creates a disproportionate sense of debt.",
+      "Commitment and consistency: once we've committed to a position, we will act in ways consistent with that commitment to avoid cognitive dissonance.",
+      "Social proof: we look to what others are doing, especially in uncertain situations, to decide what we should do.",
+      "Authority: we defer to experts and symbols of authority, even when we shouldn't.",
+      "Scarcity: things become more desirable when they are rare or becoming unavailable. Loss aversion amplifies this."
+    ],
+    "summarySections": [
+      {
+        "heading": "The click, whirr of fixed-action patterns",
+        "paragraphs": [
+          "Cialdini opens with ethology — the study of animal behavior. Animals have fixed-action patterns: complex sequences of behavior triggered automatically by a single stimulus. Turkies attack anything with a tape-recording of chick sounds. The trigger overrides observation.",
+          "Humans have the same patterns. In a complex world, we need shortcuts — rules of thumb that automate responses. These shortcuts are called heuristics, and while they work most of the time, they can be deliberately triggered by people who understand them."
+        ]
+      },
+      {
+        "heading": "Reciprocity: the most powerful principle",
+        "paragraphs": [
+          "Reciprocity is baked deep into human evolution — societies that didn't return favors collapsed. The rule is that you should try to repay, in kind, what another person has provided to you. The problem: this creates a vulnerability.",
+          "In experiments, the Hare Krishnas increased donations enormously by giving away flowers first. People who received an uninvited gift felt compelled to give something in return. The key is that the initial gift doesn't need to be large — it just needs to come first."
+        ]
+      },
+      {
+        "heading": "Commitment, social proof, and scarcity",
+        "paragraphs": [
+          "Commitment and consistency: once you've said yes to something small (can I have a moment of your time?), you are far more likely to say yes to the larger ask that follows. The foot-in-the-door technique works because we need to see ourselves as consistent.",
+          "Social proof — what everyone else is doing must be right — explains why TV laugh tracks increase how funny shows seem, why restaurants list \"most popular dishes,\" and why long queues make restaurants seem desirable. Scarcity works because humans are wired to value loss more than gain."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "Influence is simultaneously a defense manual and a playbook. Reading it makes you a harder target for manipulation — you'll recognize the patterns when they're used on you. It also makes you a more effective communicator.",
+          "Cialdini's core message: these principles are not tricks. They are real psychological patterns rooted in legitimate human needs. Using them ethically, in ways that genuinely align with your audience's interests, is simply good communication."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "happiness-equation",
+    "title": "The Happiness Equation",
+    "author": "Neil Pasricha",
+    "category": "Self-Help",
+    "coverImageUrl": "covers/happiness-equation.png",
+    "shortDescription": "Neil Pasricha, the blogger behind 1000 Awesome Things, distills the psychology of happiness into nine counterintuitive secrets for creating a good life — beginning with the discovery that happiness precedes success, not the other way around.",
+    "keyTakeaways": [
+      "Be happy first. We have the success-happiness equation backwards — happiness generates the energy, creativity, and resilience that produce success.",
+      "Do it for you. Intrinsic motivation produces durable happiness; external validation is a moving target.",
+      "Remember the lottery. The baseline conditions of your life — clean water, safety, opportunity — are extraordinary by historical standards.",
+      "Never retire. Meaningful work, purpose, and contribution are key predictors of longevity and wellbeing.",
+      "Create space. Most anxiety is generated by overfull schedules. Protecting empty time is a prerequisite for joy."
+    ],
+    "summarySections": [
+      {
+        "heading": "Happiness comes first",
+        "paragraphs": [
+          "Most of us operate on an equation: Work hard → Succeed → Be happy. Pasricha draws on Shawn Achor's research to argue the equation is backwards. Happiness is not the reward for success — it is the precondition for it.",
+          "Happy people are 31% more productive, earn more, have stronger immune systems, and are more creative. Happiness is a performance advantage, not a result. This means the rational strategy is to invest in your happiness first, not as a reward."
+        ]
+      },
+      {
+        "heading": "The hidden luck of your life",
+        "paragraphs": [
+          "Pasricha's most emotionally resonant chapter: the vast majority of humans born before roughly 1900 did not have clean water, antibiotics, or even reliable food. Most were consumed by daily survival.",
+          "The comparison that recalibrates: if you are reading this book, you have won a lottery of extraordinary proportions. Not just compared to history, but compared to billions alive today. Gratitude is not a polite gesture — it is an accurate perception of a remarkable situation."
+        ]
+      },
+      {
+        "heading": "Create space, never retire",
+        "paragraphs": [
+          "Two of Pasricha's most practical chapters: never fully retire (people who stop contributing and creating lose purpose, and lose years of life with it), and create space deliberately (overscheduled people are chronically anxious; empty time is the medium in which creativity and joy occur).",
+          "Both ideas run counter to conventional wisdom. We celebrate retirement as a goal and praise busyness as a virtue. Pasricha's evidence suggests both intuitions are wrong."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "The Happiness Equation is warm, accessible, and grounded in real research. It won't transform anyone who is deeply struggling, but for people who are doing reasonably well and wondering why they don't feel better, it offers a genuinely useful recalibration.",
+          "Its best insight: you don't need to change your circumstances to be happier. You need to change the equation you're using to interpret them."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dopamine-nation",
+    "title": "Dopamine Nation",
+    "author": "Anna Lembke",
+    "category": "Psychology",
+    "coverImageUrl": "covers/dopamine-nation.png",
+    "shortDescription": "A Stanford psychiatrist's compassionate and rigorous investigation into why we are addicted to pleasure and how we might find balance in a world flooded with dopamine triggers — from drugs and food to phones and social media.",
+    "keyTakeaways": [
+      "Dopamine is not the pleasure chemical — it is the anticipation and wanting chemical. The pleasure hits before the reward.",
+      "The pleasure-pain balance: every pleasure triggers a pain compensation. In our dopamine-flooded world, the baseline tilts toward craving.",
+      "Dopamine fast: abstaining from your drug of choice for 30 days allows the brain's reward system to reset.",
+      "Radical honesty is itself therapeutic — speaking truth regulates dopamine through the pain of vulnerability.",
+      "Pressing on the pain side of the balance (exercise, cold exposure, fasting) paradoxically creates wellbeing."
+    ],
+    "summarySections": [
+      {
+        "heading": "The new addiction",
+        "paragraphs": [
+          "Lembke opens with a paradox: we live in the most pleasure-rich environment in human history — more food, more entertainment, more stimulation than any previous generation. And we are less happy than our grandparents. She argues these two facts are not coincidental.",
+          "Her clinical practice is full of patients addicted to things that wouldn't have been recognized as addictions a generation ago: pornography, video games, social media, shopping, romance novels. The mechanisms of addiction are identical regardless of the substance."
+        ]
+      },
+      {
+        "heading": "How the pleasure-pain balance works",
+        "paragraphs": [
+          "The neuroscience: dopamine doesn't encode pleasure — it encodes wanting, anticipation, prediction. The actual moment of getting what you want is accompanied by a dopamine dip, not a spike. The spike happens in anticipation.",
+          "Every pleasure triggers a pain response — the brain's attempt to return to equilibrium. With chronic overconsumption, the baseline tilts: the scale is perpetually tipped toward craving. The normal state becomes not neutral but mildly aversive. This is the neurological mechanism of addiction."
+        ]
+      },
+      {
+        "heading": "Finding balance: abstinence and embraced pain",
+        "paragraphs": [
+          "Lembke's practical prescription: when a compulsive behavior has clearly tilted the balance, a 30-day abstinence period allows the dopamine system to reset. Most of her patients report that after 30 days, ordinary pleasures feel vivid and satisfying in a way they hadn't for years.",
+          "Counter-intuitive: deliberately pressing on the pain side of the balance — cold showers, intense exercise, fasting, difficult physical challenges — produces wellbeing. The pain creates a compensation on the pleasure side. Goggins and Lembke, from very different angles, are describing the same neurological mechanism."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "Dopamine Nation is a beautiful, unusual book — equal parts clinical manual and human story. Lembke writes about her patients with deep compassion, and about herself (she shares her own addiction) with unusual honesty.",
+          "Its message is not anti-pleasure. It is pro-balance. In an environment that floods every dopamine pathway, some deliberate friction — some chosen difficulty — is necessary to maintain the capacity for genuine joy."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "winner-effect",
+    "title": "The Winner Effect",
+    "author": "Ian Robertson",
+    "category": "Psychology",
+    "coverImageUrl": "covers/winner-effect.png",
+    "shortDescription": "Neuroscientist Ian Robertson's fascinating study of how power and success change the brain — and why winning makes you more likely to win again, while losing makes losing more likely, in a hormonal and neurological feedback loop.",
+    "keyTakeaways": [
+      "Winning raises testosterone, which improves confidence, risk-taking, and performance — increasing the probability of winning again.",
+      "Power changes the brain: it reduces empathy, increases self-focus, and makes cognitive errors more likely.",
+      "The winner effect is self-reinforcing but not permanent. The champion who stops being challenged becomes cognitively and hormonally weaker.",
+      "Small wins matter neurologically. Deliberately engineering small victories builds the hormonal and neural infrastructure for larger ones.",
+      "Stress is not inherently bad. Controlled, chosen stress — the stress of challenge — builds resilience. Uncontrolled stress destroys it."
+    ],
+    "summarySections": [
+      {
+        "heading": "Testosterone, winning, and the feedback loop",
+        "paragraphs": [
+          "Robertson opens with lizards, then moves to chess players: in both species, winning a competition raises testosterone levels, and that raised testosterone improves performance in the next competition. Losing does the reverse. This is the winner effect — a biological feedback loop that transcends species.",
+          "The effect is real in humans and measurable. Chess players who win their first game in a tournament are statistically more likely to win the next one. Not just because they're better — because they're biologically primed to perform better after winning."
+        ]
+      },
+      {
+        "heading": "How power corrupts the brain",
+        "paragraphs": [
+          "The neuroscience of power is disturbing. Robertson draws on extensive research showing that acquiring power reduces the ability to take others' perspectives, increases willingness to take risks, and impairs certain kinds of reasoning.",
+          "The mechanism: power activates the dopamine system in ways similar to cocaine. And like cocaine, it is addictive — the more power you have, the more you seek, and the less context you need to justify your decisions. Humility is not just a virtue; it is a neurological safeguard."
+        ]
+      },
+      {
+        "heading": "Engineering small wins",
+        "paragraphs": [
+          "Robertson's most practical insight: you can deliberately prime the winner effect. By engineering small, genuine victories — completing a challenge, mastering a skill, achieving a modest goal — you build the hormonal and neural infrastructure that makes larger wins more likely.",
+          "This connects to goal-setting theory: goals that are challenging but achievable produce the right hormonal profile. Goals that are impossibly large produce cortisol (stress hormone) rather than testosterone. The winner effect is fragile and needs to be carefully managed."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "The Winner Effect is one of the more surprising books in behavioral science — it presents a genuinely counterintuitive finding (winning changes your brain, not just your record) and traces its implications thoughtfully.",
+          "Its practical lesson: design your challenges so you win regularly enough to build momentum, but struggle enough to keep growing. Champions who stop being challenged stop winning — not from lack of effort but from hormonal and neural atrophy."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "misbehaving",
+    "title": "Misbehaving",
+    "author": "Richard H. Thaler",
+    "category": "Psychology",
+    "coverImageUrl": "covers/misbehaving.png",
+    "shortDescription": "Nobel Prize winner Richard Thaler's autobiographical account of how he helped create behavioral economics — the science of what humans actually do with money, versus what rational-agent theory says they should.",
+    "keyTakeaways": [
+      "Humans are not rational economic agents. We are predictably irrational in ways that can be modeled and anticipated.",
+      "Mental accounting: we treat money differently depending on its source, its label, and its context, not its objective value.",
+      "The endowment effect: we value things more once we own them. Sellers demand far more than buyers are willing to pay for the same object.",
+      "Nudge theory: small changes to the choice architecture — the default option, the framing, the order — produce large changes in behavior.",
+      "Feedback matters. The best way to change behavior is to design systems that give immediate, legible feedback."
+    ],
+    "summarySections": [
+      {
+        "heading": "The birth of behavioral economics",
+        "paragraphs": [
+          "Thaler begins as a young economist noticing things that didn't fit the dominant model. Colleagues at Rochester kept a bowl of cashews before dinner — and when he removed it, everyone was relieved. Rational agents wouldn't feel relieved; they would simply eat as many cashews as they wanted to eat.",
+          "The observation seems trivial but it isn't. If rational agents have access to cashews and choose not to eat them, removing the cashews changes nothing. The fact that removing them made people happier proves they are not rational agents — they have limited self-control."
+        ]
+      },
+      {
+        "heading": "Mental accounting and the endowment effect",
+        "paragraphs": [
+          "Thaler's most cited contributions: mental accounting (we categorize money in ways that affect how we spend it — a bonus feels different from salary, money won feels different from money earned, even though dollars are identical) and the endowment effect (we overvalue what we already own, creating irrational aversion to losing it).",
+          "These effects are small individually but enormous in aggregate. The stock market, the housing market, and insurance markets are all substantially shaped by loss aversion and mental accounting."
+        ]
+      },
+      {
+        "heading": "Nudge: using irrationality for good",
+        "paragraphs": [
+          "The positive application: if humans are predictably irrational, you can design systems that channel that irrationality toward better outcomes. Automatic opt-in for retirement savings dramatically increases enrollment. Smaller plate sizes reduce calorie consumption. Descriptive norms (\"most of your neighbors pay their taxes on time\") dramatically improve compliance.",
+          "Thaler and Cass Sunstein called this nudge theory, and it has become one of the most influential frameworks in public policy — applied to everything from organ donation to energy conservation."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "Misbehaving is unusually entertaining for an economics book. Thaler writes with genuine wit, and the book is as much a memoir of intellectual combat — convincing a profession committed to rational-agent models that humans are not, in fact, rational — as it is an exposition of behavioral economics.",
+          "Its lasting contribution: you can't change human nature, but you can design systems that work with it rather than against it."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mans-search-for-meaning",
+    "title": "Man's Search for Meaning",
+    "author": "Viktor E. Frankl",
+    "category": "Philosophy",
+    "coverImageUrl": "covers/mans-search-for-meaning.png",
+    "shortDescription": "Viktor Frankl survived four Nazi concentration camps, including Auschwitz. This is his account of how — and his argument that the primary human drive is not pleasure or power, but the search for meaning. One of the most important books of the 20th century.",
+    "keyTakeaways": [
+      "Between stimulus and response there is a space. In that space is our power to choose our response. In our response lies our growth and our freedom.",
+      "Meaning can be found in three ways: through a deed we give to the world, through an experience or love, or through the attitude we take toward unavoidable suffering.",
+      "Those who had a 'why' to live could bear almost any 'how' — Nietzsche's insight confirmed by survival in extremis.",
+      "Logotherapy: anxiety and depression are often existential, not psychological. Finding meaning is the treatment.",
+      "Freedom is the freedom to choose one's attitude — the last human freedom that cannot be taken away."
+    ],
+    "summarySections": [
+      {
+        "heading": "Survival in the camps",
+        "paragraphs": [
+          "Frankl spent years in four different concentration camps. In the first section of the book he describes what he observed — not with self-pity or rage but with the detached curiosity of a trained psychiatrist.",
+          "His central observation: those who survived were not necessarily the physically strongest. They were, most often, those who found or maintained a reason to live — a person to return to, a work to complete, a truth to communicate. Viktor himself survived partly by mentally reconstructing the manuscript that had been taken from him at Auschwitz."
+        ]
+      },
+      {
+        "heading": "The last human freedom",
+        "paragraphs": [
+          "Frankl's philosophical core: everything can be taken from a person except one thing — the ability to choose one's attitude toward any given set of circumstances. Between stimulus and response lies a space, and in that space lies freedom.",
+          "This is not a comfortable idea. It places an enormous burden on the individual. But Frankl means it as liberation: even in conditions of total external helplessness, the inner life remains one's own."
+        ]
+      },
+      {
+        "heading": "Logotherapy: the will to meaning",
+        "paragraphs": [
+          "The second half of the book introduces logotherapy, Frankl's theory of human psychology. Where Freud saw pleasure as the primary drive and Adler saw power, Frankl argued for meaning. A person who has meaning can endure almost anything; a person without meaning cannot be satisfied by pleasure or power.",
+          "Logotherapy's practical application: when a patient is depressed, anxious, or addicted, asking not 'how do you feel?' but 'what are you living for?' often reveals the existential vacuum that other treatments address only symptomatically."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "Man's Search for Meaning is a short book — it can be read in an afternoon — but it is one of the most substantial books ever written. Frankl's credentials for his argument are unique: he tested his theory in the most extreme conditions imaginable.",
+          "Its message is not that suffering is good. It is that suffering is unavoidable, and that the choice of how to face it is the most fundamental exercise of human freedom."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "meditations",
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy",
+    "coverImageUrl": "covers/meditations.png",
+    "shortDescription": "The private journal of a Roman Emperor — and the greatest Stoic text. Marcus Aurelius never intended these notes for publication. They are the daily practice of a man who ruled the known world and spent his evenings reminding himself how to be good.",
+    "keyTakeaways": [
+      "You have power only over your own thoughts and actions — not over events, outcomes, or other people. Focus entirely on the former.",
+      "The obstacle is the way: what stands in the path becomes the path. Difficulty is the material from which character is made.",
+      "Memento mori: remembering that you will die clarifies what matters and reduces the weight of trivial concerns.",
+      "Virtue is the only genuine good. Health, wealth, and reputation are preferred indifferents — nice to have, not necessary for a good life.",
+      "Begin each day by acknowledging the difficulty ahead and the resilience you carry to meet it."
+    ],
+    "summarySections": [
+      {
+        "heading": "A private document, for one reader",
+        "paragraphs": [
+          "Marcus Aurelius ruled Rome at its greatest extent and spent seventeen years on military campaigns in the frozen north. The Meditations were written to himself — not for posterity, not for performance. They are private reminders of principles he found himself forgetting.",
+          "This makes them unusual among philosophical texts. He is not constructing arguments; he is encouraging himself. The repetition across twelve books is not accident — he kept needing to remind himself of the same things."
+        ]
+      },
+      {
+        "heading": "The dichotomy of control",
+        "paragraphs": [
+          "Stoicism's most important concept, and Meditations' most recurring theme: some things are in our power (our judgments, desires, and actions) and some things are not (everything external — health, reputation, wealth, other people's behavior).",
+          "Marcus returns to this again and again. He is the most powerful man in the world, and he keeps reminding himself that the only thing worth controlling is his own response to events. Not because external things don't matter, but because confusing them with what truly matters is the root of unhappiness."
+        ]
+      },
+      {
+        "heading": "The obstacle is the way",
+        "paragraphs": [
+          "\"The impediment to action advances action. What stands in the way becomes the way.\" This is arguably the most quoted line in the Meditations, and it encapsulates a distinctly Stoic attitude: adversity is not bad luck. It is the material from which virtue is forged.",
+          "Marcus led campaigns he didn't want to lead, managed subordinates who betrayed him, lost children, dealt with chronic illness — and kept showing up. The Meditations document the internal practice that made this possible."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "Meditations is not a systematic philosophy. It is a practice. Reading it is most valuable not as intellectual exercise but as a morning ritual: picking a passage, sitting with it, asking how it applies to the day ahead.",
+          "Marcus's genius is not originality — the ideas are borrowed wholesale from Epictetus and the Stoic tradition. His genius is the depth of application: a man who had every reason to believe the rules didn't apply to him, insisting that they did."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "storyworthy",
+    "title": "Storyworthy",
+    "author": "Matthew Dicks",
+    "category": "Self-Help",
+    "coverImageUrl": "covers/storyworthy.png",
+    "shortDescription": "Matthew Dicks has won more Moth StorySLAM competitions than anyone alive. In Storyworthy he reveals the craft behind his storytelling — and his surprising argument that every powerful story is about a five-second moment of transformation.",
+    "keyTakeaways": [
+      "Every great story is about a five-second moment of change — a moment when the protagonist became different. Everything else is scaffolding.",
+      "Stories must have stakes. They must matter to the teller. If you don't care, the audience won't.",
+      "The Homework for Life: spend five minutes every evening asking what was the most story-worthy moment of your day. You will find stories everywhere.",
+      "Start your story as close to the end as possible. The longer the setup, the further the audience is from caring.",
+      "Elephants and backpacks: give the audience a reason to care immediately (elephant), and let them carry relevant context (backpack) to where you're going."
+    ],
+    "summarySections": [
+      {
+        "heading": "The five-second moment",
+        "paragraphs": [
+          "Dicks's foundational insight: in every story worth telling, there is a five-second moment — the actual instant of change, realization, or transformation. Everything before that moment is setup. Everything after is resolution. Most failed stories meander because the teller hasn't identified their five-second moment.",
+          "His process: before shaping any story, find the moment. What changed? How is the person at the end different from the person at the beginning? If nothing changed, there is no story — there is only an anecdote."
+        ]
+      },
+      {
+        "heading": "Homework for Life",
+        "paragraphs": [
+          "Dicks's most beloved exercise: every evening, spend five minutes asking yourself what was the most story-worthy moment of your day. Not the most exciting or dramatic — the most story-worthy. The moment that contains some germ of meaning.",
+          "After a few weeks, two things happen: you start noticing story-worthy moments in real time (you are programming your attention), and you build an inventory of raw material. Most of the stories that win at the Moth were found using this practice."
+        ]
+      },
+      {
+        "heading": "The architecture of a story",
+        "paragraphs": [
+          "Dicks breaks down storytelling craft into concrete, teachable components: where to start (as close to the end as possible), how to manage time (slow down at the important moments, speed through the rest), how to use dialogue (only meaningful exchanges, each one that matters), and how to plant details that pay off later.",
+          "He uses the metaphor of the elephant (give the audience a clear reason to care immediately — a tension, a promise, a question), and the backpack (load the audience with information they'll need later, so they carry it with anticipation)."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "Storyworthy is an unusual craft book — it teaches storytelling for verbal performance (the kind you tell at a dinner table or on stage), not for writing. But its principles apply anywhere: every good piece of writing, every compelling presentation, every memorable conversation contains a clear five-second moment of change.",
+          "Dicks is funny, generous, and specific. The book is worth reading for the Homework for Life exercise alone."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "made-to-stick",
+    "title": "Made to Stick",
+    "author": "Chip Heath & Dan Heath",
+    "category": "Business",
+    "coverImageUrl": "covers/made-to-stick.png",
+    "shortDescription": "Why do some ideas survive and others die? The Heath brothers reverse-engineered the most \"sticky\" ideas in history and distilled six principles — SUCCESs — that make any idea more likely to be remembered, shared, and acted on.",
+    "keyTakeaways": [
+      "Simple: find the core of your idea and express it ruthlessly. Cut everything that dilutes the essential truth.",
+      "Unexpected: violate the audience's existing schema to grab attention. Open a gap in knowledge, then fill it.",
+      "Concrete: ideas survive in sensory, tangible detail. Abstractions fade; specifics stick.",
+      "Credible: ideas gain credibility from external authorities, but also from internal details — vivid, specific, verifiable.",
+      "Emotional and Stories: people don't respond to statistics — they respond to people and narrative. Make them feel something; make them see someone."
+    ],
+    "summarySections": [
+      {
+        "heading": "The Curse of Knowledge",
+        "paragraphs": [
+          "The Heaths open with a psychological phenomenon that explains most bad communication: once you know something, it's nearly impossible to imagine not knowing it. Experts systematically overestimate how much their audience knows and underestimates how much explanation they need.",
+          "The SUCCESs framework (Simple, Unexpected, Concrete, Credible, Emotional, Stories) is largely a set of antidotes to the Curse of Knowledge — ways of communicating that compensate for the expert's natural tendency to abstract, assume, and skip."
+        ]
+      },
+      {
+        "heading": "Simple and Unexpected",
+        "paragraphs": [
+          "Simplicity is not dumbing down — it is finding the core. Southwest Airlines' \"we are the low-cost airline\" isn't dumb; it's a decision-making filter that resolves every ambiguous choice consistently. \"What would the low-cost airline do?\" is actionable in a way that \"we value our customers\" is not.",
+          "Unexpected ideas hijack attention by violating a prediction. The gap theory of curiosity: when you realize there is something you don't know that you want to know, you feel a specific discomfort that motivates you to fill the gap. Good teachers and good communicators open gaps before they fill them."
+        ]
+      },
+      {
+        "heading": "Concrete, Credible, Emotional, Stories",
+        "paragraphs": [
+          "Concreteness: \"a bicycle for the mind\" (Steve Jobs on the computer) sticks because it's sensory. \"A tool for cognitive enhancement\" doesn't. Specificity implies expertise and truth in ways that abstraction cannot.",
+          "Stories work because the brain processes narrative differently from factual information — it activates simulation, putting the audience into the experience rather than receiving information about it. The most powerful form of any idea is a story in which it is demonstrated, not stated."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "Made to Stick is essential reading for anyone who communicates ideas: teachers, managers, marketers, writers, parents. It is practical, clearly structured, and full of memorable examples — a book that practices what it preaches.",
+          "Its most enduring gift is the framework itself: six questions you can ask about any communication — is it simple? unexpected? concrete? credible? emotional? does it tell a story? — that reliably improve it."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "steal-like-an-artist",
+    "title": "Steal Like an Artist",
+    "author": "Austin Kleon",
+    "category": "Self-Help",
+    "coverImageUrl": "covers/steal-like-an-artist.png",
+    "shortDescription": "A short, gorgeous manifesto on creativity. Austin Kleon's argument that all creative work builds on what came before — and that the most honest and productive thing an artist can do is embrace influence, steal from their heroes, and make it their own.",
+    "keyTakeaways": [
+      "Nothing is original. All creative work is built on what came before. The question is not whether to steal, but what to steal from.",
+      "Steal from your heroes, then steal from their heroes. The wider your genealogy, the more original your work.",
+      "The side project is the real project. The stuff you do without obligation, for pure interest, is where the best work comes from.",
+      "Be boring. Have a good day job. Keep a schedule. Creativity is sustained by stability, not chaos.",
+      "Share your work in progress. The audience you build before you're ready is the audience that will support your best work."
+    ],
+    "summarySections": [
+      {
+        "heading": "Nothing is original",
+        "paragraphs": [
+          "Kleon opens with a provocation: steal like an artist. He doesn't mean plagiarize — he means that all creative work builds on influence. Every writer is shaped by books they've read. Every musician is shaped by music they've heard. Pretending otherwise is dishonest; acknowledging it is the first step to finding your own voice.",
+          "The key distinction: bad artists steal from one source (imitation). Good artists steal from many and synthesize them into something new (transformation). Your influences are not your limit — they are your raw material."
+        ]
+      },
+      {
+        "heading": "The creative genealogy",
+        "paragraphs": [
+          "Kleon recommends tracing your influences' influences. Who did your favorite writer read? Who shaped your favorite director? Building a family tree of influence reveals the conversation that your work is entering — and shows you what territory is already well-covered and what is still open.",
+          "He also recommends keeping two notebooks: a conceptual sketchbook (for ideas, observations, clippings) and a process journal. Seeing your own thinking laid out over time reveals patterns and connections that aren't visible in the moment."
+        ]
+      },
+      {
+        "heading": "Share your process, be boring, keep going",
+        "paragraphs": [
+          "The second half of the book is about sustainability. Kleon recommends sharing work in progress — not waiting until it's finished to show anyone. The audience you build while you're learning is more loyal than the audience you try to find after you've arrived.",
+          "\"Be boring\" is his most counterintuitive advice for creatives. Keep a schedule. Have a good day job that pays the bills without requiring all your best thinking. The romantic image of the tortured, chaotic artist is largely fiction. The most prolific and lasting creative people have stable, regular lives."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "Steal Like an Artist is a slim, visually beautiful book that can be read in an hour. It will not give you a systematic creative process — it will give you permission. Permission to borrow freely, to start before you're ready, to be boring, to share imperfect work.",
+          "Kleon's gift is a relaxed attitude toward creativity at a time when creative paralysis is endemic. The best response to creative block is usually not to think harder — it is to steal more widely."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "art-and-business-of-writing",
+    "title": "The Art and Business of Online Writing",
+    "author": "Nicolas Cole",
+    "category": "Self-Help",
+    "coverImageUrl": "covers/art-and-business-of-writing.png",
+    "shortDescription": "Nicolas Cole went from gaming forums to one of the most-read writers on the internet, then built a business teaching others how. His step-by-step guide to building an audience by writing online — the platform, the craft, and the economics.",
+    "keyTakeaways": [
+      "Write for the reader's benefit, not for self-expression. The question is always: why does this matter to the reader?",
+      "Powerful openers — the first line decides everything. The reader decides whether to continue in seconds.",
+      "Categories of content: opinions, how-tos, lists, and stories. Understanding which one you're writing shapes structure immediately.",
+      "Build an audience before you need one. Consistent publishing compounds over time like interest.",
+      "The secret to online writing: prove you can be interesting about the obvious. The hardest topics are the familiar ones."
+    ],
+    "summarySections": [
+      {
+        "heading": "Why online writing is different",
+        "paragraphs": [
+          "Cole argues that online writing follows different rules than academic writing, journalism, or books. The reader's attention is genuinely scarce. There are no professors requiring completion and no subscription keeping them there. Every paragraph must earn the next click.",
+          "He draws on years of experimentation across platforms (Quora, Medium, LinkedIn) to identify what actually causes people to keep reading — and what causes them to leave. The rules are learnable, they are not mystical."
+        ]
+      },
+      {
+        "heading": "The power of the opening line",
+        "paragraphs": [
+          "Cole is emphatic: the opening line is everything in online writing. It makes a promise to the reader — here is why this is worth your next three minutes. A weak opening loses the reader before the argument starts; a strong opening compels even a disinterested reader to continue.",
+          "He categorizes effective openers: the surprising statement, the counterintuitive claim, the specific detail that implies an interesting world, the direct question that places the reader in the dilemma. Each type works differently and is appropriate for different content."
+        ]
+      },
+      {
+        "heading": "Building an audience through consistency",
+        "paragraphs": [
+          "Cole's growth strategy is unsexy: publish consistently, in one place, on a defined schedule. He is not talking about going viral — he is talking about compound interest. The writer who publishes 300 times has 300 chances to find readers; the writer who publishes 3 times does not.",
+          "He also emphasizes niche: the writer who writes about everything is remembered for nothing. The writer who becomes the definitive voice on a specific topic or perspective builds a recognizable identity that readers seek out."
+        ]
+      },
+      {
+        "heading": "Final summary",
+        "paragraphs": [
+          "The Art and Business of Online Writing is a practical, no-nonsense guide aimed directly at people who want to build an audience on the internet — not to become literary authors, but to communicate effectively and build something real.",
+          "Cole's central gift is his refusal to mystify the process. Good online writing is a craft, not a talent. It can be studied, practiced, and improved systematically. The internet rewards people who show up, improve, and keep going."
         ]
       }
     ]
