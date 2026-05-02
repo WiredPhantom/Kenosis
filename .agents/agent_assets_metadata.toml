@@ -108,6 +108,66 @@ uri = "file://artifacts/lumen-library/public/covers/essentialism.png"
 type = "image"
 title = "generated_image"
 
+[[generated]]
+id = "VUqLzPi-FunZlnySwlbTY"
+uri = "file://artifacts/lumen-library/public/covers/personal-mba.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "4LCieo4wU6mgUh1-n28vv"
+uri = "file://artifacts/lumen-library/public/covers/lean-startup.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "Bo3CWRFRBDGIxALdeNxZb"
+uri = "file://artifacts/lumen-library/public/covers/think-and-grow-rich.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "MGI7LirvJaMMZGs8pvobX"
+uri = "file://artifacts/lumen-library/public/covers/millionaire-fastlane.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "BGZ_62WtQuP5RpNsQVQmS"
+uri = "file://artifacts/lumen-library/public/covers/rich-dad-poor-dad.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "emhY03Z1J9guryM8xo1hD"
+uri = "file://artifacts/lumen-library/public/covers/tools-of-titans.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "ttydD-VMONdwTJlEx0fvW"
+uri = "file://artifacts/lumen-library/public/covers/almanack-naval.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "OUnni-V6M14zI5z7j9fxH"
+uri = "file://artifacts/lumen-library/public/covers/4-hour-work-week.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "NH8skWZlj2jXsCudGaMYP"
+uri = "file://artifacts/lumen-library/public/covers/innovators-dilemma.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "9-GFiicDClKpuJUgC_RhB"
+uri = "file://artifacts/lumen-library/public/covers/thinking-fast-and-slow.png"
+type = "image"
+title = "generated_image"
+
 [[outputs]]
 id = "mda2YjDF63hrzLNtUKxKm"
 uri = "file://artifacts/lumen-library/dist/lumen-neocities.tar.gz"
