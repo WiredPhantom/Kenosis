@@ -238,7 +238,7 @@ title = "generated_image"
 id = "gqonxEFb4d5g53mmjl0I0"
 uri = "file://artifacts/lumen-library/public/covers/paradox-of-choice.png"
 type = "image"
-title = "generated_image"
+title = "paradox of choice chibi"
 
 [[generated]]
 id = "WBYPT9OLRXXOke38NqHQX"
@@ -299,6 +299,48 @@ id = "gDQdTGKeien6FYa2yxA2j"
 uri = "file://artifacts/lumen-library/public/covers/negotiation-hacks.png"
 type = "image"
 title = "generated_image"
+
+[[generated]]
+id = "w6DDmpXxuilii8ZU1JcHq"
+uri = "file://artifacts/lumen-library/public/covers/short-history-nearly-everything.png"
+type = "image"
+title = "short history everything chibi cosmos"
+
+[[generated]]
+id = "THWaeE0TDO-WWjH_pBc1K"
+uri = "file://artifacts/lumen-library/public/covers/outsiders.png"
+type = "image"
+title = "outsiders chibi lone figure"
+
+[[generated]]
+id = "EjQ06gj5wddUzk1Yq_4Uk"
+uri = "file://artifacts/lumen-library/public/covers/how-to-win-friends.png"
+type = "image"
+title = "how to win friends chibi"
+
+[[generated]]
+id = "8mi7THxs2iubr4BrfAgA8"
+uri = "file://artifacts/lumen-library/public/covers/all-marketers-are-liars.png"
+type = "image"
+title = "all marketers liars storyteller chibi"
+
+[[generated]]
+id = "Bt0S5gPBErHWfaB_5chq2"
+uri = "file://artifacts/lumen-library/public/covers/me-my-customer-and-ai.png"
+type = "image"
+title = "me customer ai chibi robot"
+
+[[generated]]
+id = "c_owxSwiZRBsBZ6QzUMqy"
+uri = "file://artifacts/lumen-library/public/covers/greatest-salesman.png"
+type = "image"
+title = "greatest salesman world chibi scroll"
+
+[[generated]]
+id = "ETJvUnPta_woE5QT0H9mx"
+uri = "file://artifacts/lumen-library/public/covers/pitch-anything.png"
+type = "image"
+title = "pitch anything chibi presenter"
 
 [[outputs]]
 id = "mda2YjDF63hrzLNtUKxKm"
