@@ -1,5 +1,5 @@
 /* ============================================================
-   LUMEN — vanilla JS app
+   KENOSIS — vanilla JS app
    Static site with hash routing.
 
    Routes:
@@ -9,7 +9,7 @@
      #/book/:id/listen       → listen mode (browser SpeechSynthesis)
    ============================================================ */
 
-const CATEGORIES = ["All", "Philosophy", "Self-Help", "Business", "Science"];
+const CATEGORIES = ["All", "Philosophy", "Self-Help", "Business", "Science", "Spirituality"];
 
 const state = {
   books: [],
@@ -64,7 +64,7 @@ function initCursorSparkle() {
 function avatarHTML(size = 96) {
   return `
     <div class="avatar" style="width:${size}px;height:${size}px;">
-      <img src="avatar/girl-reading.png" alt="Lumi the reading companion" />
+      <img src="avatar/girl-reading.png" alt="Lain the reading companion" />
       <span class="sparkle s1">✦</span>
       <span class="sparkle s2">✿</span>
       <span class="sparkle s3">♡</span>
@@ -170,7 +170,7 @@ function marqueeHTML() {
    HOME PAGE
    ============================================================ */
 function renderHome() {
-  document.title = "Lumen ✿ a cozy library of big ideas";
+  document.title = "Kenosis ✿ a cozy library of big ideas";
 
   const filtered = state.books.filter((b) => {
     const matchesCat = state.category === "All" || b.category === state.category;
@@ -191,7 +191,7 @@ function renderHome() {
       <header class="banner">
         <div class="banner-stripes">
           <div class="banner-title-pill">
-            <h1>♡ LUMEN ♡</h1>
+            <h1>♡ KENOSIS ♡</h1>
             <p>a cozy library of big ideas</p>
           </div>
         </div>
@@ -364,7 +364,7 @@ function renderDetail(id) {
   const book = state.books.find((b) => b.id === id);
   if (!book) return renderNotFound();
 
-  document.title = `${book.title} ♡ Lumen`;
+  document.title = `${book.title} ♡ Kenosis`;
 
   app.innerHTML = `
     <div class="lace-strip" aria-hidden="true"></div>
@@ -388,13 +388,13 @@ function renderDetail(id) {
             </a>
             <a class="action-btn listen" href="#/book/${encodeURIComponent(book.id)}/listen">
               <span class="ico">🎧</span>
-              <span>listen with lumi ♥</span>
+              <span>listen with lain ♥</span>
             </a>
 
             <div class="narrator-card">
               ${avatarHTML(56)}
               <div class="text">
-                <p>narrated by lumi</p>
+                <p>narrated by lain</p>
                 <p>soft voice, lots of feelings (◕‿◕)</p>
               </div>
             </div>
@@ -433,7 +433,7 @@ function renderRead(id) {
   const book = state.books.find((b) => b.id === id);
   if (!book) return renderNotFound();
 
-  document.title = `Reading ♡ ${book.title} — Lumen`;
+  document.title = `Reading ♡ ${book.title} — Kenosis`;
 
   const wordCount = (book.summarySections || []).reduce(
     (acc, sec) => acc + (sec.paragraphs || []).reduce((a, p) => a + p.split(/\s+/).length, 0),
@@ -535,7 +535,7 @@ function renderListen(id) {
   const book = state.books.find((b) => b.id === id);
   if (!book) return renderNotFound();
 
-  document.title = `Listening ♡ ${book.title} — Lumen`;
+  document.title = `Listening ♡ ${book.title} — Kenosis`;
 
   const supportsSpeech =
     typeof window !== "undefined" && "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
@@ -740,7 +740,7 @@ function stopPlayback() {
 }
 
 function renderNotFound() {
-  document.title = "Not found ♡ Lumen";
+  document.title = "Not found ♡ Kenosis";
   app.innerHTML = `
     <div class="container page-fade">
       <a class="back-link pill" href="#/">← back to library</a>
