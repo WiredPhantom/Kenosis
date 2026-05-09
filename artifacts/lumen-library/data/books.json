@@ -4451,47 +4451,6 @@
     ]
   },
   {
-    "id": "sapiens",
-    "title": "Sapiens",
-    "author": "Yuval Noah Harari",
-    "category": "Science",
-    "coverImageUrl": "covers/sapiens.png",
-    "shortDescription": "Yuval Noah Harari's sweeping account of how Homo sapiens came to dominate the planet — through the cognitive revolution that enabled shared fictions, the agricultural revolution that reshaped human society, and the scientific revolution that gave us the power to transform the world.",
-    "keyTakeaways": [
-      "The Cognitive Revolution — the emergence of complex language and the ability to believe in shared fictions — is what enabled sapiens to cooperate in large groups and outcompete every other species.",
-      "Shared myths — money, nations, human rights, gods, corporations — are the glue that holds large human societies together; they are not illusions but powerful inter-subjective realities.",
-      "The Agricultural Revolution may have been history's greatest fraud: it made human civilization possible while making the average individual's life harder, shorter, and more miserable than their hunter-gatherer ancestors.",
-      "The Scientific Revolution was built on humility — the willingness to admit ignorance and the systematic construction of knowledge through observation and experiment.",
-      "Sapiens are now on the verge of becoming gods — through biotechnology, AI, and cyborg engineering — raising urgent questions about what we actually want."
-    ],
-    "summarySections": [
-      {
-        "heading": "The Cognitive Revolution and the power of shared fictions",
-        "paragraphs": [
-          "Harari identifies the Cognitive Revolution — which he dates to roughly 70,000 years ago — as the event that transformed Homo sapiens from one of several human species into the dominant animal on the planet. What changed was not body size or brain volume — earlier humans had similar brains — but a qualitative leap in the kinds of language that became possible. Earlier languages could describe the world: 'There is a lion near the river.' The new language could describe things that don't exist: 'The lion is the spirit of our ancestors,' or 'If we all agree, this piece of paper is worth a goat.'",
-          "This ability to believe in — and coordinate around — shared fictions is the key to Harari's account of human history. A corporation, a nation, a religion, a currency — none of these things exist in physical reality. You cannot touch a dollar bill and find the value in it; the value exists only because millions of people collectively believe in it. But this inter-subjective reality is not less real for being fiction-based — it is enormously real in its consequences. It is what allows sapiens to cooperate in groups of millions, which no other species can do.",
-          "This insight reframes much of what we call civilization. The laws, the institutions, the social hierarchies, the moral frameworks that organize human societies are not natural features of the world but constructed fictions that have been so thoroughly internalized that most people experience them as objective reality. This does not make them arbitrary or dismissible — it makes understanding their constructed nature essential for thinking clearly about history, politics, and the future."
-        ]
-      },
-      {
-        "heading": "The Agricultural Revolution and its discontents",
-        "paragraphs": [
-          "Harari's treatment of the Agricultural Revolution is deliberately provocative. The conventional narrative presents agriculture as unambiguous progress — more food, more people, the foundation of civilization. Harari asks: progress for whom? The archaeological evidence suggests that the transition from foraging to farming made the average human's life worse in several measurable ways: foragers worked fewer hours, ate more diverse and nutritious diets, suffered fewer epidemic diseases, and lived in more egalitarian societies than early farmers.",
-          "The beneficiary of agriculture was not the individual human but the species, and more specifically the gene — wheat and rice spread across the globe because they made humans serve their reproduction. The human beings who switched to agriculture were, from this perspective, trapped: they could not return to foraging once their population had grown beyond what foraging could sustain, and the work of farming was more demanding, the diet more restricted, the social hierarchy more oppressive. The Agricultural Revolution created the conditions for civilization and simultaneously degraded the quality of most individual lives.",
-          "This is Harari at his most characteristic: taking a feature of human history that everyone knows, examining it from a non-human-centered perspective, and arriving at a conclusion that is both defensible and profoundly disorienting. The Agricultural Revolution was history's greatest fraud not because it was malicious but because it was a collective trap — a set of choices that made sense individually in the short run and produced outcomes that were catastrophic collectively in the long run."
-        ]
-      },
-      {
-        "heading": "The Scientific Revolution and the future of sapiens",
-        "paragraphs": [
-          "The Scientific Revolution of the fifteenth and sixteenth centuries was distinguished from previous intellectual advances, Harari argues, by a single crucial innovation: the willingness to admit ignorance. Previous knowledge systems — religion, tradition, ancient philosophy — worked by explaining what was already known. The scientific method begins with the acknowledgment that the most important questions have not yet been answered and constructs systematic procedures for investigating them.",
-          "This epistemic humility, combined with the practice of gathering empirical data and building mathematical models, unleashed an unprecedented acceleration in human capability. The scientific revolution and the capitalist revolution fed each other: science produced technologies that made investment profitable; capital funded the research that produced more science. The combination has produced, in five centuries, a material transformation of human life that dwarfs everything that happened in the previous 70,000 years.",
-          "Sapiens ends with a meditation on the future that is more disquieting than celebratory. Harari observes that sapiens are now on the threshold of a post-human transition: the biotechnological, digital, and cyborg revolutions may produce beings that are as different from modern Homo sapiens as we are from the Neanderthals we replaced. This raises the most important question the book asks: knowing what we now know about ourselves — that we are story-telling apes whose fictions have consequences, whose revolutions make individuals miserable even as they make the species powerful — what do we actually want to become?"
-        ]
-      }
-    ]
-  },
-  {
     "id": "lessons-of-history",
     "title": "The Lessons of History",
     "author": "Will Durant & Ariel Durant",
