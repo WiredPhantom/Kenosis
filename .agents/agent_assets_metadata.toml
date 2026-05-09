@@ -342,6 +342,66 @@ uri = "file://artifacts/lumen-library/public/covers/pitch-anything.png"
 type = "image"
 title = "pitch anything chibi presenter"
 
+[[generated]]
+id = "pZDdl_CRh-tgM2XT3Ay5v"
+uri = "file://artifacts/lumen-library/public/covers/righteous-mind.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "MRcdwSoqTtHMVl76cDaw3"
+uri = "file://artifacts/lumen-library/public/covers/games-people-play.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "oEYfmuWOMciikoFdVnAXm"
+uri = "file://artifacts/lumen-library/public/covers/denial-of-death.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "NpoOixlCFKjtjHTaBZtix"
+uri = "file://artifacts/lumen-library/public/covers/elephant-in-the-brain.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "9fJUuZEow0Y8811eA-Xlv"
+uri = "file://artifacts/lumen-library/public/covers/48-laws-of-power.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "IsmJA2mPpdo0Z2xqi3UhS"
+uri = "file://artifacts/lumen-library/public/covers/good-strategy-bad-strategy.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "QxzEkK4zyoErPwcPBnnt0"
+uri = "file://artifacts/lumen-library/public/covers/sovereign-individual.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "CfkAOzHFS0bR9TG950djQ"
+uri = "file://artifacts/lumen-library/public/covers/antifragile.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "ZeNTwyoAjLHtbdUEP4Oqr"
+uri = "file://artifacts/lumen-library/public/covers/courage-to-be-disliked.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "9uHzDiZ2Orv1HKZe0QIi5"
+uri = "file://artifacts/lumen-library/public/covers/letters-from-a-stoic.png"
+type = "image"
+title = "generated_image"
+
 [[outputs]]
 id = "mda2YjDF63hrzLNtUKxKm"
 uri = "file://artifacts/lumen-library/dist/lumen-neocities.tar.gz"
