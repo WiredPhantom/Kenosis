@@ -402,6 +402,66 @@ uri = "file://artifacts/lumen-library/public/covers/letters-from-a-stoic.png"
 type = "image"
 title = "generated_image"
 
+[[generated]]
+id = "sAxV5b1fsudjE4LQe1nDB"
+uri = "file://artifacts/lumen-library/public/covers/organizational-physics.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "twAstqozMY7PHO0U56LhB"
+uri = "file://artifacts/lumen-library/public/covers/guns-germs-and-steel.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "LzcUuk8izCt5cEPOC2QzW"
+uri = "file://artifacts/lumen-library/public/covers/disease-of-hearts.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "SV5L7jx_VInz2DFyODiig"
+uri = "file://artifacts/lumen-library/public/covers/tao-te-ching.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "U32LnhXCChM5V8dTC8lZv"
+uri = "file://artifacts/lumen-library/public/covers/untethered-soul.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "9l5-bJzQDZkptvxzllLUv"
+uri = "file://artifacts/lumen-library/public/covers/war-of-art.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "izgeakb1iEauj2k3vXfoR"
+uri = "file://artifacts/lumen-library/public/covers/show-your-work.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "oARQEoqFPCDA09MNk81YZ"
+uri = "file://artifacts/lumen-library/public/covers/mastery.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "rRKJkJB8C8kvUgaDRSaJz"
+uri = "file://artifacts/lumen-library/public/covers/so-good-they-cant-ignore-you.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "EEpoM1dWZFYemA6fkbayw"
+uri = "file://artifacts/lumen-library/public/covers/sapiens.png"
+type = "image"
+title = "generated_image"
+
 [[outputs]]
 id = "mda2YjDF63hrzLNtUKxKm"
 uri = "file://artifacts/lumen-library/dist/lumen-neocities.tar.gz"

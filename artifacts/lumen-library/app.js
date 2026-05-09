@@ -9,7 +9,7 @@
      #/book/:id/listen       → listen mode (browser SpeechSynthesis)
    ============================================================ */
 
-const CATEGORIES = ["All", "Philosophy", "Self-Help", "Business", "Science", "Spirituality"];
+const CATEGORIES = ["All", "Philosophy", "Self-Help", "Psychology", "Business", "Science", "Spirituality"];
 
 const state = {
   books: [],
